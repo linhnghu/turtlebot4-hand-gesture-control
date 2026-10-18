@@ -1,0 +1,323 @@
+[INFO] [launch]: All log files can be found below /home/linh/.ros/log/2026-10-07-08-24-19-844273-linh-IdeaPad-Gaming-3-15ACH6-32987
+[INFO] [launch]: Default logging verbosity is set to INFO
+ign_args is deprecated, migrate to gz_args!
+[INFO] [ign gazebo-1]: process started with pid [32992]
+[INFO] [parameter_bridge-2]: process started with pid [32994]
+[INFO] [robot_state_publisher-3]: process started with pid [32997]
+[INFO] [joint_state_publisher-4]: process started with pid [32999]
+[INFO] [robot_state_publisher-5]: process started with pid [33001]
+[INFO] [static_transform_publisher-6]: process started with pid [33003]
+[INFO] [create-7]: process started with pid [33005]
+[INFO] [create-8]: process started with pid [33007]
+[INFO] [parameter_bridge-9]: process started with pid [33009]
+[INFO] [parameter_bridge-10]: process started with pid [33012]
+[INFO] [parameter_bridge-11]: process started with pid [33015]
+[INFO] [parameter_bridge-12]: process started with pid [33019]
+[INFO] [parameter_bridge-13]: process started with pid [33025]
+[INFO] [parameter_bridge-14]: process started with pid [33031]
+[INFO] [parameter_bridge-15]: process started with pid [33045]
+[INFO] [parameter_bridge-16]: process started with pid [33050]
+[INFO] [parameter_bridge-17]: process started with pid [33055]
+[INFO] [parameter_bridge-18]: process started with pid [33081]
+[INFO] [parameter_bridge-19]: process started with pid [33086]
+[INFO] [parameter_bridge-20]: process started with pid [33094]
+[INFO] [parameter_bridge-21]: process started with pid [33108]
+[INFO] [parameter_bridge-22]: process started with pid [33121]
+[INFO] [parameter_bridge-23]: process started with pid [33126]
+[INFO] [parameter_bridge-24]: process started with pid [33130]
+[INFO] [parameter_bridge-25]: process started with pid [33142]
+[INFO] [parameter_bridge-26]: process started with pid [33145]
+[INFO] [turtlebot4_node-27]: process started with pid [33153]
+[INFO] [spawner-28]: process started with pid [33175]
+[INFO] [hazards_vector_publisher-29]: process started with pid [33183]
+[INFO] [ir_intensity_vector_publisher-30]: process started with pid [33186]
+[INFO] [motion_control-31]: process started with pid [33212]
+[INFO] [wheel_status_publisher-32]: process started with pid [33222]
+[INFO] [mock_publisher-33]: process started with pid [33277]
+[INFO] [robot_state-34]: process started with pid [33304]
+[INFO] [kidnap_estimator_publisher-35]: process started with pid [33313]
+[INFO] [ui_mgr-36]: process started with pid [33318]
+[INFO] [pose_republisher_node-37]: process started with pid [33326]
+[INFO] [sensors_node-38]: process started with pid [33344]
+[INFO] [interface_buttons_node-39]: process started with pid [33397]
+[INFO] [static_transform_publisher-40]: process started with pid [33402]
+[INFO] [static_transform_publisher-41]: process started with pid [33440]
+[INFO] [rviz2-42]: process started with pid [33453]
+[parameter_bridge-2] [INFO] [1791336260.767252264] [clock_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[robot_state_publisher-3] [WARN] [1791336260.641734417] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-3] [INFO] [1791336260.641889769] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1791336260.641976613] [robot_state_publisher]: got segment bump_front_center
+[robot_state_publisher-3] [INFO] [1791336260.641984057] [robot_state_publisher]: got segment bump_front_left
+[robot_state_publisher-3] [INFO] [1791336260.641989747] [robot_state_publisher]: got segment bump_front_right
+[robot_state_publisher-3] [INFO] [1791336260.641994827] [robot_state_publisher]: got segment bump_left
+[robot_state_publisher-3] [INFO] [1791336260.641999656] [robot_state_publisher]: got segment bump_right
+[robot_state_publisher-3] [INFO] [1791336260.642004535] [robot_state_publisher]: got segment bumper
+[robot_state_publisher-3] [INFO] [1791336260.642009925] [robot_state_publisher]: got segment button_1
+[robot_state_publisher-3] [INFO] [1791336260.642015215] [robot_state_publisher]: got segment button_2
+[robot_state_publisher-3] [INFO] [1791336260.642024763] [robot_state_publisher]: got segment button_power
+[robot_state_publisher-3] [INFO] [1791336260.642030885] [robot_state_publisher]: got segment cliff_front_left
+[robot_state_publisher-3] [INFO] [1791336260.642036245] [robot_state_publisher]: got segment cliff_front_right
+[robot_state_publisher-3] [INFO] [1791336260.642041445] [robot_state_publisher]: got segment cliff_side_left
+[robot_state_publisher-3] [INFO] [1791336260.642047286] [robot_state_publisher]: got segment cliff_side_right
+[robot_state_publisher-3] [INFO] [1791336260.642052565] [robot_state_publisher]: got segment front_caster_link
+[robot_state_publisher-3] [INFO] [1791336260.642057825] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-3] [INFO] [1791336260.642063165] [robot_state_publisher]: got segment ir_intensity_front_center_left
+[robot_state_publisher-3] [INFO] [1791336260.642068926] [robot_state_publisher]: got segment ir_intensity_front_center_right
+[robot_state_publisher-3] [INFO] [1791336260.642074106] [robot_state_publisher]: got segment ir_intensity_front_left
+[robot_state_publisher-3] [INFO] [1791336260.642079316] [robot_state_publisher]: got segment ir_intensity_front_right
+[robot_state_publisher-3] [INFO] [1791336260.642084365] [robot_state_publisher]: got segment ir_intensity_left
+[robot_state_publisher-3] [INFO] [1791336260.642089425] [robot_state_publisher]: got segment ir_intensity_right
+[robot_state_publisher-3] [INFO] [1791336260.642094745] [robot_state_publisher]: got segment ir_intensity_side_left
+[robot_state_publisher-3] [INFO] [1791336260.642100195] [robot_state_publisher]: got segment ir_omni
+[robot_state_publisher-3] [INFO] [1791336260.642105665] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-3] [INFO] [1791336260.642111025] [robot_state_publisher]: got segment mouse
+[robot_state_publisher-3] [INFO] [1791336260.642116456] [robot_state_publisher]: got segment oakd_camera_bracket
+[robot_state_publisher-3] [INFO] [1791336260.642121766] [robot_state_publisher]: got segment oakd_imu_frame
+[robot_state_publisher-3] [INFO] [1791336260.642127627] [robot_state_publisher]: got segment oakd_left_camera_frame
+[robot_state_publisher-3] [INFO] [1791336260.642134319] [robot_state_publisher]: got segment oakd_left_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791336260.642140611] [robot_state_publisher]: got segment oakd_link
+[robot_state_publisher-3] [INFO] [1791336260.642146332] [robot_state_publisher]: got segment oakd_rgb_camera_frame
+[robot_state_publisher-3] [INFO] [1791336260.642151682] [robot_state_publisher]: got segment oakd_rgb_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791336260.642157192] [robot_state_publisher]: got segment oakd_right_camera_frame
+[robot_state_publisher-3] [INFO] [1791336260.642163194] [robot_state_publisher]: got segment oakd_right_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791336260.642168463] [robot_state_publisher]: got segment right_wheel
+[robot_state_publisher-3] [INFO] [1791336260.642173934] [robot_state_publisher]: got segment rplidar_link
+[robot_state_publisher-3] [INFO] [1791336260.642179364] [robot_state_publisher]: got segment wheel_drop_left
+[robot_state_publisher-3] [INFO] [1791336260.642185165] [robot_state_publisher]: got segment wheel_drop_right
+[robot_state_publisher-5] [WARN] [1791336260.651121370] [kdl_parser]: The root link std_dock_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-5] [INFO] [1791336260.651200248] [dock_state_publisher]: got segment green_buoy_link
+[robot_state_publisher-5] [INFO] [1791336260.655316680] [dock_state_publisher]: got segment halo_link
+[robot_state_publisher-5] [INFO] [1791336260.655371182] [dock_state_publisher]: got segment red_buoy_link
+[robot_state_publisher-5] [INFO] [1791336260.655380730] [dock_state_publisher]: got segment std_dock_link
+[robot_state_publisher-5] [INFO] [1791336260.655387503] [dock_state_publisher]: got segment yellow_buoy_link
+[static_transform_publisher-6] [WARN] [1791336260.625085608] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1791336260.762721263] [tf_odom_std_dock_link_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.157000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '1.000000', '0.000000')
+[static_transform_publisher-6] from 'odom' to 'std_dock_link'
+[create-7] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-7] 
+[create-7] [INFO] [1791336260.639760946] [ros_gz_sim]: Requesting list of world names.
+[create-8] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-8] 
+[create-8] [INFO] [1791336260.678286927] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-9] [INFO] [1791336260.714479741] [cmd_vel_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (ignition.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/Twist)] (Lazy 0)
+[parameter_bridge-9] [INFO] [1791336260.724951373] [cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/turtlebot4/cmd_vel (geometry_msgs/msg/Twist) -> /model/turtlebot4/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1791336260.733748437] [pose_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/pose (ignition.msgs.Pose_V) -> /model/turtlebot4/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1791336260.785534385] [pose_bridge]: Creating GZ->ROS Bridge: [/model/standard_dock/pose (ignition.msgs.Pose_V) -> /model/standard_dock/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-13] [INFO] [1791336260.805889354] [cliff_front_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-14] [INFO] [1791336260.732719762] [cliff_front_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-17] [INFO] [1791336260.842705470] [ir_intensity_front_center_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[static_transform_publisher-41] [WARN] [1791336260.849093623] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-40] [WARN] [1791336260.860818222] []: Old-style arguments are deprecated; see --help for new-style arguments
+[parameter_bridge-16] [INFO] [1791336260.896265664] [cliff_side_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[wheel_status_publisher-32] [INFO] [1791336260.920525366] [wheel_status_publisher]: Advertised topic: wheel_vels
+[wheel_status_publisher-32] [INFO] [1791336260.921006872] [wheel_status_publisher]: Advertised topic: wheel_ticks
+[rviz2-42] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[ign gazebo-1] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[parameter_bridge-23] [INFO] [1791336260.987795673] [ir_intensity_side_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-22] [INFO] [1791336260.996763288] [ir_intensity_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[robot_state-34] [INFO] [1791336261.098703648] [robot_state]: Advertised topic: battery_state
+[robot_state-34] [INFO] [1791336261.113439450] [robot_state]: Subscription to topic: dock_status
+[robot_state-34] [INFO] [1791336261.113975198] [robot_state]: Advertised topic: stop_status
+[robot_state-34] [INFO] [1791336261.137674277] [robot_state]: Subscription to topic: odom
+[parameter_bridge-19] [INFO] [1791336261.149766638] [ir_intensity_front_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[hazards_vector_publisher-29] [INFO] [1791336261.152704202] [hazards_vector_publisher]: Advertised topic: hazard_detection
+[parameter_bridge-25] [INFO] [1791336261.154795856] [lidar_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[hazards_vector_publisher-29] [INFO] [1791336261.155360838] [hazards_vector_publisher]: Subscription to topic: _internal/bumper/event
+[turtlebot4_node-27] [INFO] [1791336261.156884023] [turtlebot4_node]: Init Turtlebot4 Node Main
+[hazards_vector_publisher-29] [INFO] [1791336261.160598609] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_front_left/event
+[hazards_vector_publisher-29] [INFO] [1791336261.167989188] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_front_right/event
+[hazards_vector_publisher-29] [INFO] [1791336261.169717959] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_side_left/event
+[hazards_vector_publisher-29] [INFO] [1791336261.170283442] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_side_right/event
+[hazards_vector_publisher-29] [INFO] [1791336261.170854206] [hazards_vector_publisher]: Subscription to topic: _internal/wheel_drop/left_wheel/event
+[hazards_vector_publisher-29] [INFO] [1791336261.171409770] [hazards_vector_publisher]: Subscription to topic: _internal/wheel_drop/right_wheel/event
+[hazards_vector_publisher-29] [INFO] [1791336261.171959724] [hazards_vector_publisher]: Subscription to topic: _internal/backup_limit
+[ui_mgr-36] [INFO] [1791336261.191298814] [ui_mgr]: Subscription to topic: cmd_lightring
+[ui_mgr-36] [INFO] [1791336261.193664172] [ui_mgr]: Subscription to topic: cmd_audio
+[mock_publisher-33] [INFO] [1791336261.212460842] [mock_publisher]: Advertised mocked topic: slip_status
+[static_transform_publisher-41] [INFO] [1791336261.218915380] [camera_stf]: Spinning until stopped - publishing transform
+[static_transform_publisher-41] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-41] rotation: ('0.499952', '-0.500000', '0.500000', '0.500048')
+[static_transform_publisher-41] from 'oakd_rgb_camera_optical_frame' to 'turtlebot4/oakd_rgb_camera_frame/rgbd_camera'
+[parameter_bridge-20] [INFO] [1791336261.226317911] [ir_intensity_front_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[static_transform_publisher-40] [INFO] [1791336261.237649502] [rplidar_stf]: Spinning until stopped - publishing transform
+[static_transform_publisher-40] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-40] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-40] from 'rplidar_link' to 'turtlebot4/rplidar_link/rplidar'
+[parameter_bridge-11] [INFO] [1791336261.264988857] [odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/tf (ignition.msgs.Pose_V) -> /model/turtlebot4/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-15] [INFO] [1791336261.287244020] [cliff_side_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-21] [INFO] [1791336261.311162481] [ir_intensity_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[kidnap_estimator_publisher-35] [INFO] [1791336261.353961159] [kidnap_estimator_publisher]: Advertised topic: kidnap_status
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.357132944] [ir_intensity_vector_publisher]: Advertised topic: ir_intensity
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.359849543] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_center_left
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.363459181] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_center_right
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.364377148] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_left
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.364936630] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_right
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.365421361] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_left
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.365889542] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_right
+[ir_intensity_vector_publisher-30] [INFO] [1791336261.366399150] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_side_left
+[kidnap_estimator_publisher-35] [INFO] [1791336261.380527029] [kidnap_estimator_publisher]: Subscription to topic: hazard_detection
+[parameter_bridge-24] [INFO] [1791336261.510679155] [buttons_msg_bridge]: Creating GZ->ROS Bridge: [/create3_buttons (ignition.msgs.Int32) -> /create3_buttons (std_msgs/msg/Int32)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791336261.550821417] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/image (ignition.msgs.Image) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791336261.601231850] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/depth_image (ignition.msgs.Image) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791336261.620491871] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/points (ignition.msgs.PointCloudPacked) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-12] [INFO] [1791336261.637500748] [bumper_contact_bridge]: Creating GZ->ROS Bridge: [/bumper_contact (ignition.msgs.Contacts) -> /bumper_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791336261.692422745] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info (ignition.msgs.CameraInfo) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[joint_state_publisher-4] [INFO] [1791336261.769425818] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[parameter_bridge-18] [INFO] [1791336261.816894739] [ir_intensity_front_center_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[spawner-28] [INFO] [1791336261.919543371] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-42] [INFO] [1791336262.530531763] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-42] [INFO] [1791336262.530652420] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-42] [INFO] [1791336262.568339386] [rviz2]: Stereo is NOT SUPPORTED
+[motion_control-31] [INFO] [1791336262.660441057] [motion_control]: Enabling REFLEX_BUMP
+[motion_control-31] [INFO] [1791336262.660697149] [motion_control]: Enabling REFLEX_CLIFF
+[motion_control-31] [INFO] [1791336262.661046987] [motion_control]: Enabling REFLEX_STUCK
+[motion_control-31] [INFO] [1791336262.661174056] [motion_control]: Enabling REFLEX_WHEEL_DROP
+[turtlebot4_node-27] [INFO] [1791336262.817138360] [turtlebot4_node]: Buttons Init
+[turtlebot4_node-27] [INFO] [1791336262.823744844] [turtlebot4_node]: Turtlebot4 lite running.
+[create-7] [INFO] [1791336265.640039920] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336265.678622214] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336270.640296018] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336270.678889138] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336271.943784932] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336271.944593132] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-7] [INFO] [1791336275.640530132] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336275.679154007] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336280.640781439] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336280.683727551] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336281.960767636] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336281.961338209] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[ign gazebo-1] Escalating to SIGKILL on [Ignition Gazebo Server]
+[INFO] [ign gazebo-1]: process has finished cleanly [pid 32992]
+[ERROR] [rviz2-42]: process has died [pid 33453, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/linh/ros2_ws/install/turtlebot4_lab/share/turtlebot4_lab/config/lab.rviz -f odom --ros-args --params-file /tmp/launch_params_sdi488g4'].
+[create-7] [INFO] [1791336285.641042756] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336285.683953218] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336290.641255705] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336290.684226417] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336291.976804568] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336291.977393416] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-7] [INFO] [1791336295.641495602] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336295.684490928] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336300.641732693] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336300.684777558] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336301.992836730] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336301.993409258] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-7] [INFO] [1791336305.641969683] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336305.685045012] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336310.642198059] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336310.685291480] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336312.008269627] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336312.008889874] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-7] [INFO] [1791336315.642443656] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336315.685567199] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336320.642706402] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336320.685835042] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336322.023771049] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336322.024332546] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-7] [INFO] [1791336325.642970803] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336325.686125999] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791336330.643216621] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336330.686396620] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791336332.039612054] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791336332.040217604] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-7] [INFO] [1791336335.643429234] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791336335.686630900] [ros_gz_sim]: Requesting list of world names.
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [static_transform_publisher-41]: sending signal 'SIGINT' to process[static_transform_publisher-41]
+[INFO] [static_transform_publisher-40]: sending signal 'SIGINT' to process[static_transform_publisher-40]
+[INFO] [interface_buttons_node-39]: sending signal 'SIGINT' to process[interface_buttons_node-39]
+[ERROR] [static_transform_publisher-40]: process has died [pid 33402, exit code -2, cmd '/opt/ros/humble/lib/tf2_ros/static_transform_publisher 0 0 0 0 0 0.0 rplidar_link turtlebot4/rplidar_link/rplidar --ros-args -r __node:=rplidar_stf -r __ns:=/ -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [sensors_node-38]: sending signal 'SIGINT' to process[sensors_node-38]
+[ERROR] [static_transform_publisher-41]: process has died [pid 33440, exit code -2, cmd '/opt/ros/humble/lib/tf2_ros/static_transform_publisher 0 0 0 1.5707 -1.5707 0 oakd_rgb_camera_optical_frame turtlebot4/oakd_rgb_camera_frame/rgbd_camera --ros-args -r __node:=camera_stf -r __ns:=/ -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [parameter_bridge-22]: process has finished cleanly [pid 33121]
+[INFO] [pose_republisher_node-37]: sending signal 'SIGINT' to process[pose_republisher_node-37]
+[ERROR] [interface_buttons_node-39]: process has died [pid 33397, exit code -2, cmd '/opt/ros/humble/lib/irobot_create_ignition_toolbox/interface_buttons_node --ros-args -r __node:=interface_buttons_node -r __ns:=/ --params-file /tmp/launch_params_fv24w6g4'].
+[INFO] [parameter_bridge-9]: process has finished cleanly [pid 33009]
+[INFO] [parameter_bridge-14]: process has finished cleanly [pid 33031]
+[INFO] [parameter_bridge-12]: process has finished cleanly [pid 33019]
+[INFO] [parameter_bridge-13]: process has finished cleanly [pid 33025]
+[INFO] [parameter_bridge-25]: process has finished cleanly [pid 33142]
+[INFO] [parameter_bridge-15]: process has finished cleanly [pid 33045]
+[INFO] [parameter_bridge-11]: process has finished cleanly [pid 33015]
+[INFO] [parameter_bridge-19]: process has finished cleanly [pid 33086]
+[INFO] [parameter_bridge-26]: process has finished cleanly [pid 33145]
+[INFO] [parameter_bridge-18]: process has finished cleanly [pid 33081]
+[INFO] [ui_mgr-36]: sending signal 'SIGINT' to process[ui_mgr-36]
+[INFO] [parameter_bridge-24]: process has finished cleanly [pid 33130]
+[INFO] [parameter_bridge-23]: process has finished cleanly [pid 33126]
+[INFO] [parameter_bridge-20]: process has finished cleanly [pid 33094]
+[ERROR] [pose_republisher_node-37]: process has died [pid 33326, exit code -2, cmd '/opt/ros/humble/lib/irobot_create_ignition_toolbox/pose_republisher_node --ros-args -r __node:=pose_republisher_node -r __ns:=/ --params-file /opt/ros/humble/share/irobot_create_ignition_bringup/config/pose_republisher_params.yaml --params-file /tmp/launch_params_zfkrmvdf --params-file /tmp/launch_params_72czeo_a --params-file /tmp/launch_params_tr_c_aao'].
+[INFO] [kidnap_estimator_publisher-35]: sending signal 'SIGINT' to process[kidnap_estimator_publisher-35]
+[INFO] [parameter_bridge-2]: process has finished cleanly [pid 32994]
+[INFO] [parameter_bridge-17]: process has finished cleanly [pid 33055]
+[INFO] [parameter_bridge-21]: process has finished cleanly [pid 33108]
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 33003]
+[INFO] [parameter_bridge-16]: process has finished cleanly [pid 33050]
+[ERROR] [ui_mgr-36]: process has died [pid 33318, exit code -2, cmd '/opt/ros/humble/lib/irobot_create_nodes/ui_mgr --ros-args -r __node:=ui_mgr -r __ns:=/ --params-file /opt/ros/humble/share/irobot_create_common_bringup/config/ui_mgr_params.yaml --params-file /tmp/launch_params__zix_2ut --params-file /tmp/launch_params_jiwl2jib'].
+[INFO] [parameter_bridge-10]: process has finished cleanly [pid 33012]
+[INFO] [robot_state-34]: sending signal 'SIGINT' to process[robot_state-34]
+[INFO] [mock_publisher-33]: sending signal 'SIGINT' to process[mock_publisher-33]
+[ERROR] [kidnap_estimator_publisher-35]: process has died [pid 33313, exit code -2, cmd '/opt/ros/humble/lib/irobot_create_nodes/kidnap_estimator_publisher --ros-args -r __node:=kidnap_estimator_publisher -r __ns:=/ --params-file /opt/ros/humble/share/irobot_create_common_bringup/config/kidnap_estimator_params.yaml --params-file /tmp/launch_params_r9zym1aq'].
+[INFO] [wheel_status_publisher-32]: process has finished cleanly [pid 33222]
+[ERROR] [robot_state-34]: process has died [pid 33304, exit code -2, cmd '/opt/ros/humble/lib/irobot_create_nodes/robot_state --ros-args -r __node:=robot_state -r __ns:=/ --params-file /opt/ros/humble/share/irobot_create_common_bringup/config/robot_state_params.yaml --params-file /tmp/launch_params_vbpyizo7'].
+[INFO] [mock_publisher-33]: process has finished cleanly [pid 33277]
+[INFO] [robot_state_publisher-5]: process has finished cleanly [pid 33001]
+[INFO] [robot_state_publisher-3]: process has finished cleanly [pid 32997]
+[INFO] [motion_control-31]: sending signal 'SIGINT' to process[motion_control-31]
+[INFO] [ir_intensity_vector_publisher-30]: sending signal 'SIGINT' to process[ir_intensity_vector_publisher-30]
+[ERROR] [motion_control-31]: process has died [pid 33212, exit code -2, cmd '/opt/ros/humble/lib/irobot_create_nodes/motion_control --ros-args -r __node:=motion_control -r __ns:=/ --params-file /tmp/launch_params_rjmaq2bf -r /tf:=tf -r /tf_static:=tf_static'].
+[INFO] [hazards_vector_publisher-29]: process has finished cleanly [pid 33183]
+[INFO] [ir_intensity_vector_publisher-30]: process has finished cleanly [pid 33186]
+[INFO] [spawner-28]: sending signal 'SIGINT' to process[spawner-28]
+[INFO] [turtlebot4_node-27]: sending signal 'SIGINT' to process[turtlebot4_node-27]
+[ERROR] [spawner-28]: process has died [pid 33175, exit code -2, cmd '/opt/ros/humble/lib/controller_manager/spawner joint_state_broadcaster -c controller_manager --ros-args -r __ns:=/'].
+[ERROR] [turtlebot4_node-27]: process has died [pid 33153, exit code -2, cmd '/opt/ros/humble/lib/turtlebot4_node/turtlebot4_node --ros-args -r __node:=turtlebot4_node -r __ns:=/ --params-file /home/linh/ros2_ws/.turtlebot4_compat/share/turtlebot4_ignition_bringup/config/turtlebot4_node.yaml --params-file /tmp/launch_params_hhsaj6oa'].
+[INFO] [sensors_node-38]: process has finished cleanly [pid 33344]
+[INFO] [joint_state_publisher-4]: process has finished cleanly [pid 32999]
+[INFO] [create-8]: sending signal 'SIGINT' to process[create-8]
+[INFO] [create-7]: sending signal 'SIGINT' to process[create-7]
+[parameter_bridge-2] [INFO] [1791336337.468687277] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-3] [INFO] [1791336337.468727062] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-5] [INFO] [1791336337.468840796] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-6] [INFO] [1791336337.468896351] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-11] [INFO] [1791336337.469579287] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-9] [INFO] [1791336337.469813117] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-12] [INFO] [1791336337.469911422] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-13] [INFO] [1791336337.470027361] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-14] [INFO] [1791336337.470450918] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[create-7] [INFO] [1791336337.470605379] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-16] [INFO] [1791336337.470915713] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-20] [INFO] [1791336337.471075083] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-21] [INFO] [1791336337.471121521] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-22] [INFO] [1791336337.471198396] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-15] [INFO] [1791336337.471789809] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[hazards_vector_publisher-29] [INFO] [1791336337.472064777] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ir_intensity_vector_publisher-30] [INFO] [1791336337.472165346] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[wheel_status_publisher-32] [INFO] [1791336337.472380722] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state-34] [INFO] [1791336337.472566692] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-24] [INFO] [1791336337.472692148] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ui_mgr-36] [INFO] [1791336337.472769223] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[sensors_node-38] [INFO] [1791336337.473043620] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-10] [INFO] [1791336337.473436530] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[mock_publisher-33] [INFO] [1791336337.473576373] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[interface_buttons_node-39] [INFO] [1791336337.473755350] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-23] [INFO] [1791336337.474216318] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-18] [INFO] [1791336337.474336955] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[kidnap_estimator_publisher-35] [INFO] [1791336337.474423599] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-25] [INFO] [1791336337.475255675] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-19] [INFO] [1791336337.475295170] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pose_republisher_node-37] [INFO] [1791336337.475619781] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-41] [INFO] [1791336337.475641442] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-40] [INFO] [1791336337.476300924] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[create-8] [INFO] [1791336337.478273368] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-17] [INFO] [1791336337.479348122] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-26] [INFO] [1791336337.483429286] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[turtlebot4_node-27] [INFO] [1791336337.483642889] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[motion_control-31] [INFO] [1791336337.485324385] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[sensors_node-38] [INFO] [1791336337.657567638] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[create-7] [INFO] [1791336340.643681100] [ros_gz_sim]: Timed out when getting world names.
+[create-8] [INFO] [1791336340.686914342] [ros_gz_sim]: Timed out when getting world names.
+[INFO] [create-7]: process has finished cleanly [pid 33005]
+[INFO] [create-8]: process has finished cleanly [pid 33007]

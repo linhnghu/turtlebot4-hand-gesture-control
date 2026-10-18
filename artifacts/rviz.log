@@ -1,0 +1,45 @@
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[INFO] [1791334148.738224135] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1791334148.738358116] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1791334148.775672539] [rviz2]: Stereo is NOT SUPPORTED
+sequence size exceeds remaining buffer
+sequence size exceeds remaining buffer
+sequence size exceeds remaining buffer
+sequence size exceeds remaining buffer
+sequence size exceeds remaining buffer
+[ERROR] [1791334154.941466875] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf.dae]: Unable to open file "package://go2_robot_sdk/dae/calf.dae".
+[ERROR] [1791334154.941614292] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf.dae]: Unable to open file "package://go2_robot_sdk/dae/calf.dae".
+[ERROR] [1791334154.941939974] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.942028911] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.942223747] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.942309247] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.942498212] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh.dae".
+[ERROR] [1791334154.942583683] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh.dae".
+[ERROR] [1791334154.942784690] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/calf_mirror.dae".
+[ERROR] [1791334154.942857527] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/calf_mirror.dae".
+[ERROR] [1791334154.943153694] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.943266636] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.943455911] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.943538416] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.943796782] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh_mirror.dae".
+[ERROR] [1791334154.943920744] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh_mirror.dae".
+[ERROR] [1791334154.944232380] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf.dae]: Unable to open file "package://go2_robot_sdk/dae/calf.dae".
+[ERROR] [1791334154.944314103] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf.dae]: Unable to open file "package://go2_robot_sdk/dae/calf.dae".
+[ERROR] [1791334154.944540439] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.944613055] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.944774528] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.944844880] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.945038153] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh.dae".
+[ERROR] [1791334154.945123674] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh.dae".
+[ERROR] [1791334154.945322758] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/calf_mirror.dae".
+[ERROR] [1791334154.945395966] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/calf_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/calf_mirror.dae".
+[ERROR] [1791334154.945629394] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.945702782] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/foot.dae]: Unable to open file "package://go2_robot_sdk/dae/foot.dae".
+[ERROR] [1791334154.945855399] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.945943905] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/hip.dae]: Unable to open file "package://go2_robot_sdk/dae/hip.dae".
+[ERROR] [1791334154.946151675] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh_mirror.dae".
+[ERROR] [1791334154.946238308] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/thigh_mirror.dae]: Unable to open file "package://go2_robot_sdk/dae/thigh_mirror.dae".
+[ERROR] [1791334154.946432443] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/base.dae]: Unable to open file "package://go2_robot_sdk/dae/base.dae".
+[ERROR] [1791334154.946530326] [rviz2]: Could not load resource [package://go2_robot_sdk/dae/base.dae]: Unable to open file "package://go2_robot_sdk/dae/base.dae".
+[INFO] [1791334206.511032090] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ros2run]: Segmentation fault

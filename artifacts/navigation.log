@@ -1,0 +1,1087 @@
+[INFO] [launch]: All log files can be found below /home/linh/.ros/log/2026-10-07-07-57-14-282855-linh-IdeaPad-Gaming-3-15ACH6-20341
+[INFO] [launch]: Default logging verbosity is set to INFO
+ign_args is deprecated, migrate to gz_args!
+[INFO] [ign gazebo-1]: process started with pid [20360]
+[INFO] [parameter_bridge-2]: process started with pid [20362]
+[INFO] [robot_state_publisher-3]: process started with pid [20365]
+[INFO] [joint_state_publisher-4]: process started with pid [20367]
+[INFO] [robot_state_publisher-5]: process started with pid [20369]
+[INFO] [static_transform_publisher-6]: process started with pid [20371]
+[INFO] [create-7]: process started with pid [20373]
+[INFO] [create-8]: process started with pid [20375]
+[INFO] [parameter_bridge-9]: process started with pid [20377]
+[INFO] [parameter_bridge-10]: process started with pid [20383]
+[INFO] [parameter_bridge-11]: process started with pid [20391]
+[INFO] [parameter_bridge-12]: process started with pid [20413]
+[INFO] [parameter_bridge-13]: process started with pid [20419]
+[INFO] [parameter_bridge-14]: process started with pid [20424]
+[INFO] [parameter_bridge-15]: process started with pid [20426]
+[INFO] [parameter_bridge-16]: process started with pid [20429]
+[INFO] [parameter_bridge-17]: process started with pid [20431]
+[INFO] [parameter_bridge-18]: process started with pid [20433]
+[INFO] [parameter_bridge-19]: process started with pid [20437]
+[INFO] [parameter_bridge-20]: process started with pid [20441]
+[INFO] [parameter_bridge-21]: process started with pid [20450]
+[INFO] [parameter_bridge-22]: process started with pid [20459]
+[INFO] [parameter_bridge-23]: process started with pid [20467]
+[INFO] [parameter_bridge-24]: process started with pid [20469]
+[INFO] [parameter_bridge-25]: process started with pid [20471]
+[INFO] [parameter_bridge-26]: process started with pid [20478]
+[INFO] [turtlebot4_node-27]: process started with pid [20493]
+[INFO] [spawner-28]: process started with pid [20511]
+[INFO] [hazards_vector_publisher-29]: process started with pid [20514]
+[INFO] [ir_intensity_vector_publisher-30]: process started with pid [20519]
+[INFO] [motion_control-31]: process started with pid [20535]
+[INFO] [wheel_status_publisher-32]: process started with pid [20541]
+[INFO] [mock_publisher-33]: process started with pid [20544]
+[INFO] [robot_state-34]: process started with pid [20552]
+[INFO] [kidnap_estimator_publisher-35]: process started with pid [20558]
+[INFO] [ui_mgr-36]: process started with pid [20568]
+[INFO] [pose_republisher_node-37]: process started with pid [20592]
+[INFO] [sensors_node-38]: process started with pid [20598]
+[INFO] [interface_buttons_node-39]: process started with pid [20604]
+[INFO] [static_transform_publisher-40]: process started with pid [20611]
+[INFO] [static_transform_publisher-41]: process started with pid [20621]
+[INFO] [map_server-42]: process started with pid [20642]
+[INFO] [amcl-43]: process started with pid [20684]
+[INFO] [lifecycle_manager-44]: process started with pid [20703]
+[INFO] [controller_server-45]: process started with pid [20730]
+[INFO] [smoother_server-46]: process started with pid [20739]
+[INFO] [planner_server-47]: process started with pid [20757]
+[INFO] [behavior_server-48]: process started with pid [20767]
+[INFO] [bt_navigator-49]: process started with pid [20777]
+[INFO] [waypoint_follower-50]: process started with pid [20790]
+[INFO] [velocity_smoother-51]: process started with pid [20801]
+[INFO] [lifecycle_manager-52]: process started with pid [20819]
+[INFO] [rviz2-53]: process started with pid [20857]
+[parameter_bridge-2] [37;1m2026-10-07 07:57:15.723 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[create-7] [37;1m2026-10-07 07:57:15.670 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[create-8] [37;1m2026-10-07 07:57:15.702 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-9] [37;1m2026-10-07 07:57:15.715 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-10] [37;1m2026-10-07 07:57:15.730 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-11] [37;1m2026-10-07 07:57:15.762 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-12] [37;1m2026-10-07 07:57:15.908 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-13] [37;1m2026-10-07 07:57:15.938 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-14] [37;1m2026-10-07 07:57:15.899 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-15] [37;1m2026-10-07 07:57:15.937 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-16] [37;1m2026-10-07 07:57:15.868 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-18] [37;1m2026-10-07 07:57:15.953 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-19] [37;1m2026-10-07 07:57:15.888 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-21] [37;1m2026-10-07 07:57:15.927 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-22] [37;1m2026-10-07 07:57:15.962 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-23] [37;1m2026-10-07 07:57:15.798 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-24] [37;1m2026-10-07 07:57:15.889 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[turtlebot4_node-27] [37;1m2026-10-07 07:57:15.887 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[hazards_vector_publisher-29] [37;1m2026-10-07 07:57:15.896 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ir_intensity_vector_publisher-30] [37;1m2026-10-07 07:57:15.908 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[motion_control-31] [37;1m2026-10-07 07:57:15.899 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[wheel_status_publisher-32] [37;1m2026-10-07 07:57:15.807 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[mock_publisher-33] [37;1m2026-10-07 07:57:15.896 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[robot_state-34] [37;1m2026-10-07 07:57:15.902 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[kidnap_estimator_publisher-35] [37;1m2026-10-07 07:57:15.890 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ui_mgr-36] [37;1m2026-10-07 07:57:15.920 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[pose_republisher_node-37] [37;1m2026-10-07 07:57:15.893 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[sensors_node-38] [37;1m2026-10-07 07:57:15.910 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[interface_buttons_node-39] [37;1m2026-10-07 07:57:15.893 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[static_transform_publisher-40] [37;1m2026-10-07 07:57:15.890 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[static_transform_publisher-41] [37;1m2026-10-07 07:57:15.891 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[map_server-42] [37;1m2026-10-07 07:57:15.924 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[controller_server-45] [37;1m2026-10-07 07:57:15.951 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[smoother_server-46] [37;1m2026-10-07 07:57:15.961 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[waypoint_follower-50] [37;1m2026-10-07 07:57:15.962 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-2] [INFO] [1791334635.901707450] [clock_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[robot_state_publisher-3] [WARN] [1791334635.678442038] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-3] [INFO] [1791334635.678644086] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1791334635.678717250] [robot_state_publisher]: got segment bump_front_center
+[robot_state_publisher-3] [INFO] [1791334635.678726949] [robot_state_publisher]: got segment bump_front_left
+[robot_state_publisher-3] [INFO] [1791334635.678734764] [robot_state_publisher]: got segment bump_front_right
+[robot_state_publisher-3] [INFO] [1791334635.678742480] [robot_state_publisher]: got segment bump_left
+[robot_state_publisher-3] [INFO] [1791334635.678750145] [robot_state_publisher]: got segment bump_right
+[robot_state_publisher-3] [INFO] [1791334635.678757669] [robot_state_publisher]: got segment bumper
+[robot_state_publisher-3] [INFO] [1791334635.678765415] [robot_state_publisher]: got segment button_1
+[robot_state_publisher-3] [INFO] [1791334635.678772749] [robot_state_publisher]: got segment button_2
+[robot_state_publisher-3] [INFO] [1791334635.678780274] [robot_state_publisher]: got segment button_power
+[robot_state_publisher-3] [INFO] [1791334635.678787889] [robot_state_publisher]: got segment cliff_front_left
+[robot_state_publisher-3] [INFO] [1791334635.678795474] [robot_state_publisher]: got segment cliff_front_right
+[robot_state_publisher-3] [INFO] [1791334635.678802808] [robot_state_publisher]: got segment cliff_side_left
+[robot_state_publisher-3] [INFO] [1791334635.678810173] [robot_state_publisher]: got segment cliff_side_right
+[robot_state_publisher-3] [INFO] [1791334635.678817738] [robot_state_publisher]: got segment front_caster_link
+[robot_state_publisher-3] [INFO] [1791334635.678825313] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-3] [INFO] [1791334635.678832677] [robot_state_publisher]: got segment ir_intensity_front_center_left
+[robot_state_publisher-3] [INFO] [1791334635.678840422] [robot_state_publisher]: got segment ir_intensity_front_center_right
+[robot_state_publisher-3] [INFO] [1791334635.678847807] [robot_state_publisher]: got segment ir_intensity_front_left
+[robot_state_publisher-3] [INFO] [1791334635.678855342] [robot_state_publisher]: got segment ir_intensity_front_right
+[robot_state_publisher-3] [INFO] [1791334635.678862666] [robot_state_publisher]: got segment ir_intensity_left
+[robot_state_publisher-3] [INFO] [1791334635.678870391] [robot_state_publisher]: got segment ir_intensity_right
+[robot_state_publisher-3] [INFO] [1791334635.678877956] [robot_state_publisher]: got segment ir_intensity_side_left
+[robot_state_publisher-3] [INFO] [1791334635.678885912] [robot_state_publisher]: got segment ir_omni
+[robot_state_publisher-3] [INFO] [1791334635.678893607] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-3] [INFO] [1791334635.678901262] [robot_state_publisher]: got segment mouse
+[robot_state_publisher-3] [INFO] [1791334635.678908717] [robot_state_publisher]: got segment oakd_camera_bracket
+[robot_state_publisher-3] [INFO] [1791334635.678916572] [robot_state_publisher]: got segment oakd_imu_frame
+[robot_state_publisher-3] [INFO] [1791334635.678924227] [robot_state_publisher]: got segment oakd_left_camera_frame
+[robot_state_publisher-3] [INFO] [1791334635.678931842] [robot_state_publisher]: got segment oakd_left_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791334635.678939718] [robot_state_publisher]: got segment oakd_link
+[robot_state_publisher-3] [INFO] [1791334635.678947543] [robot_state_publisher]: got segment oakd_rgb_camera_frame
+[robot_state_publisher-3] [INFO] [1791334635.678955499] [robot_state_publisher]: got segment oakd_rgb_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791334635.678963465] [robot_state_publisher]: got segment oakd_right_camera_frame
+[robot_state_publisher-3] [INFO] [1791334635.678971330] [robot_state_publisher]: got segment oakd_right_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791334635.678979406] [robot_state_publisher]: got segment right_wheel
+[robot_state_publisher-3] [INFO] [1791334635.678987181] [robot_state_publisher]: got segment rplidar_link
+[robot_state_publisher-3] [INFO] [1791334635.678994676] [robot_state_publisher]: got segment wheel_drop_left
+[robot_state_publisher-3] [INFO] [1791334635.679002271] [robot_state_publisher]: got segment wheel_drop_right
+[robot_state_publisher-5] [WARN] [1791334635.652661338] [kdl_parser]: The root link std_dock_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-5] [INFO] [1791334635.652755533] [dock_state_publisher]: got segment green_buoy_link
+[robot_state_publisher-5] [INFO] [1791334635.652845420] [dock_state_publisher]: got segment halo_link
+[robot_state_publisher-5] [INFO] [1791334635.652858496] [dock_state_publisher]: got segment red_buoy_link
+[robot_state_publisher-5] [INFO] [1791334635.652867995] [dock_state_publisher]: got segment std_dock_link
+[robot_state_publisher-5] [INFO] [1791334635.652876151] [dock_state_publisher]: got segment yellow_buoy_link
+[static_transform_publisher-6] [WARN] [1791334635.620413179] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1791334635.649529219] [tf_odom_std_dock_link_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.157000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '1.000000', '0.000000')
+[static_transform_publisher-6] from 'odom' to 'std_dock_link'
+[create-7] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-7] 
+[create-7] [INFO] [1791334635.750926900] [ros_gz_sim]: Requesting list of world names.
+[create-8] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-8] 
+[create-8] [INFO] [1791334635.835244970] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-9] [INFO] [1791334635.811589927] [cmd_vel_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (ignition.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/Twist)] (Lazy 0)
+[parameter_bridge-9] [INFO] [1791334635.826382584] [cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/turtlebot4/cmd_vel (geometry_msgs/msg/Twist) -> /model/turtlebot4/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1791334635.841669414] [pose_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/pose (ignition.msgs.Pose_V) -> /model/turtlebot4/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1791334635.854732865] [pose_bridge]: Creating GZ->ROS Bridge: [/model/standard_dock/pose (ignition.msgs.Pose_V) -> /model/standard_dock/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[static_transform_publisher-40] [WARN] [1791334635.854916537] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-41] [WARN] [1791334635.856597698] []: Old-style arguments are deprecated; see --help for new-style arguments
+[bt_navigator-49] [37;1m2026-10-07 07:57:15.977 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-20] [37;1m2026-10-07 07:57:15.974 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[behavior_server-48] [37;1m2026-10-07 07:57:15.979 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[lifecycle_manager-52] [37;1m2026-10-07 07:57:15.978 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-17] [37;1m2026-10-07 07:57:15.980 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[velocity_smoother-51] [37;1m2026-10-07 07:57:15.988 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[lifecycle_manager-44] [37;1m2026-10-07 07:57:15.989 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-25] [37;1m2026-10-07 07:57:15.989 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[amcl-43] [37;1m2026-10-07 07:57:15.990 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[rviz2-53] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[planner_server-47] [37;1m2026-10-07 07:57:15.999 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-26] [37;1m2026-10-07 07:57:16.008 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[rviz2-53] [37;1m2026-10-07 07:57:16.108 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-11] [INFO] [1791334636.218714401] [odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/tf (ignition.msgs.Pose_V) -> /model/turtlebot4/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[spawner-28] [37;1m2026-10-07 07:57:16.219 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[joint_state_publisher-4] [37;1m2026-10-07 07:57:16.268 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19667: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ign gazebo-1] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[wheel_status_publisher-32] [INFO] [1791334636.290787224] [wheel_status_publisher]: Advertised topic: wheel_vels
+[wheel_status_publisher-32] [INFO] [1791334636.291440651] [wheel_status_publisher]: Advertised topic: wheel_ticks
+[parameter_bridge-19] [INFO] [1791334636.291690433] [ir_intensity_front_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-24] [INFO] [1791334636.293422204] [buttons_msg_bridge]: Creating GZ->ROS Bridge: [/create3_buttons (ignition.msgs.Int32) -> /create3_buttons (std_msgs/msg/Int32)] (Lazy 0)
+[parameter_bridge-14] [INFO] [1791334636.358452116] [cliff_front_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-16] [INFO] [1791334636.360061496] [cliff_side_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-23] [INFO] [1791334636.366957838] [ir_intensity_side_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[static_transform_publisher-40] [INFO] [1791334636.441181617] [rplidar_stf]: Spinning until stopped - publishing transform
+[static_transform_publisher-40] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-40] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-40] from 'rplidar_link' to 'turtlebot4/rplidar_link/rplidar'
+[static_transform_publisher-41] [INFO] [1791334636.452889806] [camera_stf]: Spinning until stopped - publishing transform
+[static_transform_publisher-41] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-41] rotation: ('0.499952', '-0.500000', '0.500000', '0.500048')
+[static_transform_publisher-41] from 'oakd_rgb_camera_optical_frame' to 'turtlebot4/oakd_rgb_camera_frame/rgbd_camera'
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.484645176] [ir_intensity_vector_publisher]: Advertised topic: ir_intensity
+[turtlebot4_node-27] [INFO] [1791334636.489795730] [turtlebot4_node]: Init Turtlebot4 Node Main
+[kidnap_estimator_publisher-35] [INFO] [1791334636.490166981] [kidnap_estimator_publisher]: Advertised topic: kidnap_status
+[kidnap_estimator_publisher-35] [INFO] [1791334636.493798153] [kidnap_estimator_publisher]: Subscription to topic: hazard_detection
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.506325104] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_center_left
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.512384046] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_center_right
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.516963315] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_left
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.525877381] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_right
+[robot_state-34] [INFO] [1791334636.540374131] [robot_state]: Advertised topic: battery_state
+[robot_state-34] [INFO] [1791334636.561069650] [robot_state]: Subscription to topic: dock_status
+[robot_state-34] [INFO] [1791334636.561700623] [robot_state]: Advertised topic: stop_status
+[robot_state-34] [INFO] [1791334636.563219284] [robot_state]: Subscription to topic: odom
+[controller_server-45] [INFO] [1791334636.570799332] [controller_server]: 
+[controller_server-45] 	controller_server lifecycle node launched. 
+[controller_server-45] 	Waiting on external lifecycle transitions to activate
+[controller_server-45] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.571652402] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_left
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.573316199] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_right
+[ir_intensity_vector_publisher-30] [INFO] [1791334636.573837516] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_side_left
+[ui_mgr-36] [INFO] [1791334636.579105080] [ui_mgr]: Subscription to topic: cmd_lightring
+[ui_mgr-36] [INFO] [1791334636.593258845] [ui_mgr]: Subscription to topic: cmd_audio
+[controller_server-45] [INFO] [1791334636.627188848] [controller_server]: Creating controller server
+[mock_publisher-33] [INFO] [1791334636.629629405] [mock_publisher]: Advertised mocked topic: slip_status
+[parameter_bridge-12] [INFO] [1791334636.717757698] [bumper_contact_bridge]: Creating GZ->ROS Bridge: [/bumper_contact (ignition.msgs.Contacts) -> /bumper_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[parameter_bridge-21] [INFO] [1791334636.722603862] [ir_intensity_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[lifecycle_manager-52] [INFO] [1791334636.738394191] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-52] [INFO] [1791334636.769556743] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[ign gazebo-1] [1;36m[Dbg] [gz.cc:161] [0m[1;36mSubscribing to [[0m[1;36m/gazebo/starting_world[0m[1;36m].[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [gz.cc:163] [0m[1;36mWaiting for a world to be set from the GUI...[0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mReceived world [[0m[1;32mmaze.sdf[0m[1;32m] from the GUI.[0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [gz.cc:167] [0m[1;36mUnsubscribing from [[0m[1;36m/gazebo/starting_world[0m[1;36m].[0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mIgnition Gazebo Server v[0m[1;32m6.18.0[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mLoading SDF world file[[0m[1;32m/opt/ros/humble/share/turtlebot4_ignition_bringup/worlds/maze.sdf[0m[1;32m].[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing entity system service on [[0m[1;32m/[0m[1;32mentity/system/add[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [Physics.cc:804] [0m[1;36mLoaded [[0m[1;36mignition::physics::dartsim::Plugin[0m[1;36m] from library [[0m[1;36m/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::Physics[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mCreate service on [[0m[1;32m/world/maze/create[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mRemove service on [[0m[1;32m/world/maze/remove[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/maze/set_pose[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPose service on [[0m[1;32m/world/maze/set_pose_vector[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mLight configuration service on [[0m[1;32m/world/maze/light_config[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPhysics service on [[0m[1;32m/world/maze/set_physics[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mSphericalCoordinates service on [[0m[1;32m/world/maze/set_spherical_coordinates[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mEnable collision service on [[0m[1;32m/world/maze/enable_collision[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mDisable collision service on [[0m[1;32m/world/maze/disable_collision[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/maze/visual_config[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mMaterial service on [[0m[1;32m/world/maze/wheel_slip[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::UserCommands[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::SceneBroadcaster[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::Contact[0m[1;36m] for entity [[0m[1;36m1[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mLoaded level [[0m[1;32m3[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing world controls on [[0m[1;32m/world/maze[0m[1;32m/control], [[0m[1;32m/world/maze[0m[1;32m/control/state] and [[0m[1;32m/world/maze[0m[1;32m/playback/control][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing GUI information on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mgui/info[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mWorld [[0m[1;32mmaze[0m[1;32m] initialized with [[0m[1;32m1ms[0m[1;32m] physics profile.[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing world SDF generation service on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mgenerate_world_sdf[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing world names on [[0m[1;32m/gazebo/worlds[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mResource path add service on [[0m[1;32m/gazebo/resource_paths/add[0m[1;32m].[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mResource path get service on [[0m[1;32m/gazebo/resource_paths/get[0m[1;32m].[0m[1;32m[0m
+[create-7] [INFO] [1791334636.968113830] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[create-8] [INFO] [1791334637.059040011] [ros_gz_sim]: Waiting messages on topic [standard_dock_description].
+[hazards_vector_publisher-29] [37;1m2026-10-07 07:57:17.101 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-13] [INFO] [1791334637.105077678] [cliff_front_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[velocity_smoother-51] [37;1m2026-10-07 07:57:17.112 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[map_server-42] [37;1m2026-10-07 07:57:17.144 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-18] [37;1m2026-10-07 07:57:17.176 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-22] [37;1m2026-10-07 07:57:17.191 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-18] [37;1m2026-10-07 07:57:17.202 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-15] [37;1m2026-10-07 07:57:17.216 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-22] [37;1m2026-10-07 07:57:17.219 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[map_server-42] [37;1m2026-10-07 07:57:17.229 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-15] [37;1m2026-10-07 07:57:17.233 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[smoother_server-46] [INFO] [1791334637.240981190] [smoother_server]: 
+[smoother_server-46] 	smoother_server lifecycle node launched. 
+[smoother_server-46] 	Waiting on external lifecycle transitions to activate
+[smoother_server-46] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-46] [INFO] [1791334637.243346568] [smoother_server]: Creating smoother server
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Scene3D.cc:2941] [0m[1;33mThe GzScene3D plugin is deprecated on v6 and will be removed on [0m[1;33mv7. Use MinimalScene together with other plugins as needed.[0m[1;33m[0m
+[parameter_bridge-15] [INFO] [1791334637.324853892] [cliff_side_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[create-7] [INFO] [1791334637.330489259] [ros_gz_sim]: Requested creation of entity.
+[create-7] [INFO] [1791334637.330549799] [ros_gz_sim]: OK creation of entity.
+[behavior_server-48] [37;1m2026-10-07 07:57:17.336 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[behavior_server-48] [37;1m2026-10-07 07:57:17.337 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/GzScene3D/GzScene3D.qml:108:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[parameter_bridge-20] [37;1m2026-10-07 07:57:17.362 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-20] [37;1m2026-10-07 07:57:17.363 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[bt_navigator-49] [37;1m2026-10-07 07:57:17.343 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-26] [37;1m2026-10-07 07:57:17.359 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-26] [37;1m2026-10-07 07:57:17.365 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19733: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-17] [37;1m2026-10-07 07:57:17.366 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[waypoint_follower-50] [37;1m2026-10-07 07:57:17.379 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/GzScene3D/GzScene3D.qml:63:5: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[amcl-43] [37;1m2026-10-07 07:57:17.416 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[rviz2-53] [37;1m2026-10-07 07:57:17.422 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[spawner-28] [37;1m2026-10-07 07:57:17.418 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[planner_server-47] [37;1m2026-10-07 07:57:17.438 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-25] [37;1m2026-10-07 07:57:17.456 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[lifecycle_manager-44] [37;1m2026-10-07 07:57:17.477 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[parameter_bridge-26] [INFO] [1791334637.486575355] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/image (ignition.msgs.Image) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791334637.502798722] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/depth_image (ignition.msgs.Image) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791334637.510125810] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/points (ignition.msgs.PointCloudPacked) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791334637.514861817] [camera_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info (ignition.msgs.CameraInfo) -> /world/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[behavior_server-48] [INFO] [1791334637.504858388] [behavior_server]: 
+[behavior_server-48] 	behavior_server lifecycle node launched. 
+[behavior_server-48] 	Waiting on external lifecycle transitions to activate
+[behavior_server-48] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[joint_state_publisher-4] [37;1m2026-10-07 07:57:17.534 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port19729: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[create-8] [INFO] [1791334637.540548128] [ros_gz_sim]: Requested creation of entity.
+[create-8] [INFO] [1791334637.540599239] [ros_gz_sim]: OK creation of entity.
+[hazards_vector_publisher-29] [INFO] [1791334637.562351383] [hazards_vector_publisher]: Advertised topic: hazard_detection
+[hazards_vector_publisher-29] [INFO] [1791334637.582287121] [hazards_vector_publisher]: Subscription to topic: _internal/bumper/event
+[hazards_vector_publisher-29] [INFO] [1791334637.612855747] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_front_left/event
+[hazards_vector_publisher-29] [INFO] [1791334637.613715470] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_front_right/event
+[hazards_vector_publisher-29] [INFO] [1791334637.614459565] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_side_left/event
+[parameter_bridge-22] [INFO] [1791334637.632149590] [ir_intensity_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[velocity_smoother-51] [INFO] [1791334637.642083292] [velocity_smoother]: 
+[velocity_smoother-51] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-51] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-51] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[hazards_vector_publisher-29] [INFO] [1791334637.651966784] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_side_right/event
+[bt_navigator-49] [INFO] [1791334637.657213085] [bt_navigator]: 
+[bt_navigator-49] 	bt_navigator lifecycle node launched. 
+[bt_navigator-49] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-49] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-49] [INFO] [1791334637.657382609] [bt_navigator]: Creating
+[hazards_vector_publisher-29] [INFO] [1791334637.684802344] [hazards_vector_publisher]: Subscription to topic: _internal/wheel_drop/left_wheel/event
+[hazards_vector_publisher-29] [INFO] [1791334637.701920874] [hazards_vector_publisher]: Subscription to topic: _internal/wheel_drop/right_wheel/event
+[parameter_bridge-20] [INFO] [1791334637.703328887] [ir_intensity_front_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[hazards_vector_publisher-29] [INFO] [1791334637.706145082] [hazards_vector_publisher]: Subscription to topic: _internal/backup_limit
+[parameter_bridge-18] [INFO] [1791334637.725542941] [ir_intensity_front_center_right_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[map_server-42] [INFO] [1791334637.733589917] [map_server]: 
+[map_server-42] 	map_server lifecycle node launched. 
+[map_server-42] 	Waiting on external lifecycle transitions to activate
+[map_server-42] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-42] [INFO] [1791334637.733786634] [map_server]: Creating
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mResource path resolve service on [[0m[1;32m/gazebo/resource[1;32m[Msg] [0m[1;32mIgnition Gazebo GUI    v[0m[1;32m6.18.0[0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [Gui.cc:253] [0m[1;36mWaiting for subscribers to [[0m[1;36m/gazebo/starting_world[0m[1;36m]...[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Application.cc:92] [0m[1;36mInitializing application.[0m[1;36m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [Application.cc:560] [0m[1;36mCreate main window[0m[1;36m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [PathManager.cc:66] [0m[1;36mRequesting resource paths through [[0m[1;36m/gazebo/resource_paths/get[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [Gui.cc:333] [0m[1;36mGUI requesting list of world names. The server may be busy [0m[1;36mdownloading resources. Please be patient.[0m[1;36m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [PathManager.cc:55] [0m[1;36mReceived resource paths.[0m[1;36m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [GuiRunner.cc:145] [0m[1;36mRequesting initial state from [[0m[1;36m/world/maze/state[0m[1;36m]...[0m[1;36m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoading config [[0m[1;32m/opt/ros/humble/share/turtlebot4_ignition_bringup/gui/lite/gui.config[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [Application.cc:431] [0m[1;36mLoading plugin [[0m[1;36mGzScene3D[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mVideo recorder stats topic advertised on [[0m[1;32m/gui/record_video/stats[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mTransform mode service on [[0m[1;32m/gui/transform_mode[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mRecord video service on [[0m[1;32m/gui/record_video[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to service on [[0m[1;32m/gui/move_to[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow service on [[0m[1;32m/gui/follow[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mFollow offset service on [[0m[1;32m/gui/follow/offset[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView angle service on [[0m[1;32m/gui/view_angle[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mMove to pose service on [[0m[1;32m/gui/move_to/pose[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera pose topic advertised on [[0m[1;32m/gui/camera/pose[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView as transparent service on [[0m[1;32m/gui/view/transparent[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView center of mass service on [[0m[1;32m/gui/view/com[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView inertia service on [[0m[1;32m/gui/view/inertia[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView joints service on [[0m[1;32m/gui/view/joints[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView wireframes service on [[0m[1;32m/gui/view/wireframes[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mView collisions service on [[0m[1;32m/gui/view/collisions[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mCamera view controller topic advertised on [[0m[1;32m/gui/camera/view_control[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32m3D View[0m[1;32m] to main window[0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mLoaded plugin [[0m[1;32mGzScene3D[0m[1;32m] from path [[0m[1;32m/usr/lib/x86_64-linux-gnu/ign-gazebo-6/plugins/gui/libGzScene3D.so[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [Application.cc:431] [0m[1;36mLoading plugin [[0m[1;36mWorldControl[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mUsing world control service [[0m[1;32m/world/maze/control[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mListening to stats on [[0m[1;32m/world/maze/stats[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[GUI] [Dbg] [WorldControl.cc:248] [0m[1;36mUsing a service to share WorldControl msgs with the server[0m
+[INFO] [create-8]: process has finished cleanly [pid 20375]
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/TransformControl/TransformControl.qml:104:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/TransformControl/TransformControl.qml:99:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/TransformControl/TransformControl.qml:94:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/TransformControl/TransformControl.qml:89:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[controller_server-45] [INFO] [1791334638.458509542] [local_costmap.local_costmap]: 
+[controller_server-45] 	local_costmap lifecycle node launched. 
+[controller_server-45] 	Waiting on external lifecycle transitions to activate
+[controller_server-45] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-45] [INFO] [1791334638.477893319] [local_costmap.local_costmap]: Creating Costmap
+[INFO] [create-7]: process has finished cleanly [pid 20373]
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/Create3Hmi/Create3Hmi.qml:49:7: Unable to assign [undefined] to QString[0m[1;33m[0m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] QObject::connect: No such signal ignition::gui::Create3Hmi::AddMsg(QString)[0m[1;33m[0m
+[ign gazebo-1] [INFO] [1791334638.664003233] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher
+[ign gazebo-1] [INFO] [1791334638.664997580] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/WorldStats/WorldStats.qml:53:3: QML RowLayout: Binding loop detected for property "x"[0m[1;33m[0m
+[ign gazebo-1] [INFO] [1791334639.110849472] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[ign gazebo-1] [INFO] [1791334639.122242221] [gz_ros2_control]: Received URDF from param server
+[ign gazebo-1] [INFO] [1791334639.128557404] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['bumper_joint'] (Entity='190') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128615418] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['front_caster_joint'] (Entity='191') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128628744] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['imu_joint'] (Entity='192') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128639064] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_center_left_joint'] (Entity='193') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128649405] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_center_right_joint'] (Entity='194') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128658683] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_left_joint'] (Entity='195') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128668362] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_front_right_joint'] (Entity='196') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128677911] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_left_joint'] (Entity='197') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128687911] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_right_joint'] (Entity='198') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128698091] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_intensity_side_left_joint'] (Entity='199') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128708431] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['ir_omni_joint'] (Entity='200') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128718340] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['mouse_joint'] (Entity='201') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128728120] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_camera_bracket_joint'] (Entity='202') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128738049] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_joint'] (Entity='203') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128747849] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_imu_joint'] (Entity='204') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128757538] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_left_camera_joint'] (Entity='205') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128767437] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_left_camera_optical_joint'] (Entity='206') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128777166] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_rgb_camera_joint'] (Entity='207') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128787016] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_rgb_camera_optical_joint'] (Entity='208') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128797456] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_right_camera_joint'] (Entity='209') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128806724] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['oakd_right_camera_optical_joint'] (Entity='210') is skipped.
+[ign gazebo-1] [INFO] [1791334639.128815883] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['rplidar_joint'] (Entity='211') is skipped.
+[ign gazebo-1] [INFO] [1791334639.159193327] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign gazebo-1] [INFO] [1791334639.159325688] [gz_ros2_control]: Loading joint: left_wheel_joint
+[ign gazebo-1] [INFO] [1791334639.159345397] [gz_ros2_control]: 	State:
+[ign gazebo-1] [INFO] [1791334639.159356699] [gz_ros2_control]: 		 velocity
+[ign gazebo-1] [INFO] [1791334639.159365707] [gz_ros2_control]: 		 position
+[ign gazebo-1] [INFO] [1791334639.159374053] [gz_ros2_control]: 	Command:
+[ign gazebo-1] [INFO] [1791334639.159382730] [gz_ros2_control]: 		 velocity
+[ign gazebo-1] [INFO] [1791334639.159599527] [gz_ros2_control]: Loading sensor: imu
+[ign gazebo-1] [INFO] [1791334639.159611942] [gz_ros2_control]: 	State:
+[ign gazebo-1] [WARN] [1791334639.159620208] [gz_ros2_control]: IMU sensor 'imu' not found in hardware_info, skipping.
+[ign gazebo-1] [INFO] [1791334639.159718812] [resource_manager]: Initialize hardware 'left_wheel_controller' 
+[ign gazebo-1] [WARN] [1791334639.159756416] [gz_ros2_control]: The ign_ros2_control plugin got renamed to gz_ros2_control.
+[ign gazebo-1] Update the <ros2_control> tag and gazebo plugin to
+[ign gazebo-1] <hardware>
+[ign gazebo-1]   <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+[ign gazebo-1] </hardware>
+[ign gazebo-1] <gazebo>
+[ign gazebo-1]   <plugin filename="gz_ros2_control-system"name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+[ign gazebo-1]     ...
+[ign gazebo-1]   </plugin>
+[ign gazebo-1] </gazebo>
+[ign gazebo-1] [INFO] [1791334639.166378984] [resource_manager]: Successful initialization of hardware 'left_wheel_controller'
+[ign gazebo-1] [INFO] [1791334639.166461476] [resource_manager]: 'configure' hardware 'left_wheel_controller' 
+[ign gazebo-1] [INFO] [1791334639.166474783] [gz_ros2_control]: System Successfully configured!
+[ign gazebo-1] [INFO] [1791334639.166511395] [resource_manager]: Successful 'configure' of hardware 'left_wheel_controller'
+[ign gazebo-1] [INFO] [1791334639.166519561] [resource_manager]: 'activate' hardware 'left_wheel_controller' 
+[ign gazebo-1] [INFO] [1791334639.168384572] [resource_manager]: Successful 'activate' of hardware 'left_wheel_controller'
+[ign gazebo-1] [INFO] [1791334639.168582813] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign gazebo-1] [INFO] [1791334639.168640246] [gz_ros2_control]: Loading joint: right_wheel_joint
+[ign gazebo-1] [INFO] [1791334639.168658371] [gz_ros2_control]: 	State:
+[ign gazebo-1] [INFO] [1791334639.168669604] [gz_ros2_control]: 		 velocity
+[ign gazebo-1] [INFO] [1791334639.168680014] [gz_ros2_control]: 		 position
+[ign gazebo-1] [INFO] [1791334639.168690354] [gz_ros2_control]: 	Command:
+[ign gazebo-1] [INFO] [1791334639.168699202] [gz_ros2_control]: 		 velocity
+[ign gazebo-1] [INFO] [1791334639.168730604] [gz_ros2_control]: Loading sensor: imu
+[ign gazebo-1] [INFO] [1791334639.168744772] [gz_ros2_control]: 	State:
+[ign gazebo-1] [WARN] [1791334639.168755132] [gz_ros2_control]: IMU sensor 'imu' not found in hardware_info, skipping.
+[ign gazebo-1] [INFO] [1791334639.168767276] [resource_manager]: Initialize hardware 'right_wheel_controller' 
+[ign gazebo-1] [WARN] [1791334639.168782586] [gz_ros2_control]: The ign_ros2_control plugin got renamed to gz_ros2_control.
+[ign gazebo-1] Update the <ros2_control> tag and gazebo plugin to
+[ign gazebo-1] <hardware>
+[ign gazebo-1]   <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+[ign gazebo-1] </hardware>
+[ign gazebo-1] <gazebo>
+[ign gazebo-1]   <plugin filename="gz_ros2_control-system"name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+[ign gazebo-1]     ...
+[ign gazebo-1]   </plugin>
+[ign gazebo-1] </gazebo>
+[ign gazebo-1] [INFO] [1791334639.168798197] [resource_manager]: Successful initialization of hardware 'right_wheel_controller'
+[ign gazebo-1] [INFO] [1791334639.168813687] [resource_manager]: 'configure' hardware 'right_wheel_controller' 
+[ign gazebo-1] [INFO] [1791334639.168820881] [gz_ros2_control]: System Successfully configured!
+[ign gazebo-1] [INFO] [1791334639.168833877] [resource_manager]: Successful 'configure' of hardware 'right_wheel_controller'
+[ign gazebo-1] [INFO] [1791334639.168842654] [resource_manager]: 'activate' hardware 'right_wheel_controller' 
+[ign gazebo-1] [INFO] [1791334639.168850259] [resource_manager]: Successful 'activate' of hardware 'right_wheel_controller'
+[ign gazebo-1] [INFO] [1791334639.168857784] [gz_ros2_control]: Loading controller_manager
+[motion_control-31] [INFO] [1791334639.318176863] [motion_control]: Enabling REFLEX_BUMP
+[motion_control-31] [INFO] [1791334639.319128356] [motion_control]: Enabling REFLEX_CLIFF
+[motion_control-31] [INFO] [1791334639.319664932] [motion_control]: Enabling REFLEX_STUCK
+[motion_control-31] [INFO] [1791334639.319874996] [motion_control]: Enabling REFLEX_WHEEL_DROP
+[turtlebot4_node-27] [INFO] [1791334639.367823814] [turtlebot4_node]: Buttons Init
+[turtlebot4_node-27] [INFO] [1791334639.407770669] [turtlebot4_node]: Turtlebot4 lite running.
+[parameter_bridge-17] [INFO] [1791334639.568437268] [ir_intensity_front_center_left_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[waypoint_follower-50] [INFO] [1791334639.681706624] [waypoint_follower]: 
+[waypoint_follower-50] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-50] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-50] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-50] [INFO] [1791334639.686665748] [waypoint_follower]: Creating
+[amcl-43] [INFO] [1791334639.739280612] [amcl]: 
+[amcl-43] 	amcl lifecycle node launched. 
+[amcl-43] 	Waiting on external lifecycle transitions to activate
+[amcl-43] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-43] [INFO] [1791334639.766029613] [amcl]: Creating
+[planner_server-47] [INFO] [1791334639.837274636] [planner_server]: 
+[planner_server-47] 	planner_server lifecycle node launched. 
+[planner_server-47] 	Waiting on external lifecycle transitions to activate
+[planner_server-47] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-47] [INFO] [1791334639.853161823] [planner_server]: Creating
+[lifecycle_manager-44] [INFO] [1791334639.866058223] [lifecycle_manager_localization]: Creating
+[lifecycle_manager-44] [INFO] [1791334639.905740346] [lifecycle_manager_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[parameter_bridge-25] [INFO] [1791334639.920971272] [lidar_bridge]: Creating GZ->ROS Bridge: [/world/maze/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (ignition.msgs.LaserScan) -> /world/maze/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[spawner-28] [INFO] [1791334640.254786363] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[joint_state_publisher-4] [INFO] [1791334640.727245926] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Ogre2Camera.cc:390] [0m[1;33mOgre2Camera::SetVisibilityMask: Mask bits [0m[1;33mc0000000[0m[1;33m are set but will be ignored as they conflict with the [0m[1;33mreserved bits used internally by the ogre2 backend.[0m[1;33m[0m
+[lifecycle_manager-52] [INFO] [1791334640.997467455] [lifecycle_manager_navigation]: Waiting for service planner_server/get_state...
+[planner_server-47] [INFO] [1791334641.497956317] [global_costmap.global_costmap]: 
+[planner_server-47] 	global_costmap lifecycle node launched. 
+[planner_server-47] 	Waiting on external lifecycle transitions to activate
+[planner_server-47] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-47] [INFO] [1791334641.499194965] [global_costmap.global_costmap]: Creating Costmap
+[rviz2-53] [INFO] [1791334641.849410689] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-53] [INFO] [1791334641.849524082] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-53] [INFO] [1791334641.899251789] [rviz2]: Stereo is NOT SUPPORTED
+[lifecycle_manager-52] [INFO] [1791334641.965135746] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-52] [INFO] [1791334641.966387670] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-45] [INFO] [1791334641.972306891] [controller_server]: Configuring controller interface
+[controller_server-45] [INFO] [1791334641.977907324] [controller_server]: getting goal checker plugins..
+[controller_server-45] [INFO] [1791334641.981439917] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-45] [INFO] [1791334641.981520185] [local_costmap.local_costmap]: Configuring
+[controller_server-45] [INFO] [1791334642.047030936] [local_costmap.local_costmap]: Using plugin "static_layer"
+[controller_server-45] [INFO] [1791334642.069874773] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-45] [INFO] [1791334642.076453861] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-45] [INFO] [1791334642.076518338] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-45] [INFO] [1791334642.091133350] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-45] [INFO] [1791334642.128344613] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-45] [INFO] [1791334642.128411194] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-45] [INFO] [1791334642.129468415] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-45] [INFO] [1791334642.214596208] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-45] [INFO] [1791334642.219736354] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-45] [INFO] [1791334642.227205103] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-45] [INFO] [1791334642.238373893] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-45] [INFO] [1791334642.255110612] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-45] [INFO] [1791334642.303555943] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-45] [INFO] [1791334642.307086401] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.307305162] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-45] [INFO] [1791334642.311407014] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.311601737] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-45] [INFO] [1791334642.311819706] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.311955343] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-45] [INFO] [1791334642.312266315] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.312379177] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-45] [INFO] [1791334642.312650291] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.312755879] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-45] [INFO] [1791334642.312985120] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.313106028] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-45] [INFO] [1791334642.313311342] [controller_server]: Critic plugin initialized
+[controller_server-45] [INFO] [1791334642.313336562] [controller_server]: Controller Server has FollowPath  controllers available.
+[ign gazebo-1] [1;33m[Wrn] [Component.hh:127] [0m[1;33mTrying to serialize component with data type [[0m[1;33mSt10shared_ptrIN3sdf3v127ElementEE[0m[1;33m], which doesn't have [0m[1;33m`operator<<`. Component will not be serialized.[0m[1;33m[0m
+[ign gazebo-1] [INFO] [1791334642.333963576] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[ign gazebo-1] [1;32m[GUI] [0m[1;32m[Msg] [0m[1;32mAdded plugin [[0m[1;32mWorld c_paths/resolve[0m[1;32m].[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mResource paths published on [[0m[1;32m/gazebo/resource_paths[0m[1;32m].[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServer control service on [[0m[1;32m/server_control[0m[1;32m].[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mFound no publishers on /stats, adding root stats topic[0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mFound no publishers on /clock, adding root clock topic[0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:501] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m3[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mign_ros2_control::IgnitionROS2ControlPlugin[0m[1;36m] for entity [[0m[1;36m132[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::PosePublisher[0m[1;36m] for entity [[0m[1;36m132[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::Contact[0m[1;36m] for entity [[0m[1;36m132[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:506] [0m[1;36mConfiguring Sensors system[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:431] [0m[1;36mSensorsPrivate::Run[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::Sensors[0m[1;36m] for entity [[0m[1;36m132[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:411] [0m[1;36mSensorsPrivate::RenderThread started[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:258] [0m[1;36mWaiting for init[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [UserCommands.cc:1303] [0m[1;36mCreated entity [[0m[1;36m132[0m[1;36m] named [[0m[1;36mturtlebot4[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SystemManager.cc:73] [0m[1;36mLoaded system [[0m[1;36mignition::gazebo::systems::PosePublisher[0m[1;36m] for entity [[0m[1;36m216[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [UserCommands.cc:1303] [0m[1;36mCreated entity [[0m[1;36m216[0m[1;36m] named [[0m[1;36mstandard_dock[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mContact system publishing on [0m[1;32m/bumper_contact[0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationFeatures.cc:71] [0m[1;36mSimulation timestep set to: [0m[1;36m0.003[0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing scene information on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mscene/info[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing graph information on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mscene/graph[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing full state on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mstate[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mServing full state (async) on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mstate_async[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPublishing scene information on [[0m[1;32m/world/maze/scene/info[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPublishing entity deletions on [[0m[1;32m/world/maze/scene/deletion[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPublishing state changes on [[0m[1;32m/world/maze/state[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPublishing pose messages on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mpose/info[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mPublishing dynamic pose messages on [[0m[1;32m/world/maze[0m[1;32m/[0m[1;32mdynamic_pose/info[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [EntityComponentManager.cc:1635] [0m[1;36mUpdated state thread iterators: [0m[1;36m12[0m[1;36m threads processing around [0m[1;36m20[0m[1;36m entities each.[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:528] [0m[1;36mExiting postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [ERROR] [1791334642.342193122] [gz_ros2_control]: Desired controller update period (0.001 s) is faster than the gazebo simulation period (0.003 s).
+[lifecycle_manager-52] [INFO] [1791334642.384169242] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-46] [INFO] [1791334642.386754279] [smoother_server]: Configuring smoother server
+[smoother_server-46] [INFO] [1791334642.471268796] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-46] [INFO] [1791334642.487238414] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-44] [INFO] [1791334642.549138074] [lifecycle_manager_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-44] [INFO] [1791334642.549204715] [lifecycle_manager_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-42] [INFO] [1791334642.551626161] [map_server]: Configuring
+[map_server-42] [INFO] [1791334642.552803919] [map_io]: Loading yaml file: /home/linh/ros2_ws/maps/map.yaml
+[map_server-42] [INFO] [1791334642.553172183] [map_io]: resolution: 0.05
+[map_server-42] [INFO] [1791334642.553190910] [map_io]: origin[0]: -10
+[map_server-42] [INFO] [1791334642.553197844] [map_io]: origin[1]: -10
+[map_server-42] [INFO] [1791334642.553204056] [map_io]: origin[2]: 0
+[map_server-42] [INFO] [1791334642.553210479] [map_io]: free_thresh: 0.25
+[map_server-42] [INFO] [1791334642.553217452] [map_io]: occupied_thresh: 0.65
+[map_server-42] [INFO] [1791334642.553225448] [map_io]: mode: trinary
+[map_server-42] [INFO] [1791334642.553233183] [map_io]: negate: 0
+[map_server-42] [INFO] [1791334642.553499037] [map_io]: Loading image_file: /home/linh/ros2_ws/maps/map.pgm
+[lifecycle_manager-52] [INFO] [1791334642.560402623] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[map_server-42] [INFO] [1791334642.579497542] [map_io]: Read map /home/linh/ros2_ws/maps/map.pgm: 354 X 401 map @ 0.05 m/cell
+[lifecycle_manager-44] [INFO] [1791334642.609707616] [lifecycle_manager_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-43] [INFO] [1791334642.610511929] [amcl]: Configuring
+[amcl-43] [INFO] [1791334642.610637436] [amcl]: initTransforms
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Component.hh:172] [0m[1;33mTrying to deserialize component with data type [[0m[1;33mSt10shared_ptrIN3sdf3v127ElementEE[0m[1;33m], which doesn't have [0m[1;33m`operator>>`. Component will not be deserialized.[0m[1;33m[0m
+[amcl-43] [INFO] [1791334642.693134412] [amcl]: initPubSub
+[spawner-28] [INFO] [1791334642.732756930] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[ign gazebo-1] [INFO] [1791334642.742300091] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[amcl-43] [INFO] [1791334642.742368606] [amcl]: Subscribed to map topic.
+[ign gazebo-1] [INFO] [1791334642.743444824] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[lifecycle_manager-44] [INFO] [1791334642.777690481] [lifecycle_manager_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-42] [INFO] [1791334642.778146137] [map_server]: Activating
+[map_server-42] [INFO] [1791334642.780391466] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-43] [INFO] [1791334642.781233854] [amcl]: Received a 354 X 401 map @ 0.050 m/pix
+[planner_server-47] [INFO] [1791334642.842179416] [planner_server]: Configuring
+[planner_server-47] [INFO] [1791334642.842246358] [global_costmap.global_costmap]: Configuring
+[planner_server-47] [INFO] [1791334642.859752040] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-47] [INFO] [1791334642.865795082] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-47] [INFO] [1791334642.869389095] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-47] [INFO] [1791334642.869443583] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-47] [INFO] [1791334642.873573731] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-47] [INFO] [1791334642.883917598] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-47] [INFO] [1791334642.883985692] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-47] [INFO] [1791334642.885240551] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[lifecycle_manager-44] [INFO] [1791334642.898775629] [lifecycle_manager_localization]: Server map_server connected with bond.
+[lifecycle_manager-44] [INFO] [1791334642.898893170] [lifecycle_manager_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-43] [INFO] [1791334642.900574549] [amcl]: Activating
+[amcl-43] [INFO] [1791334642.900632052] [amcl]: Creating bond (amcl) to lifecycle manager.
+[planner_server-47] [INFO] [1791334642.922386856] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 354 X 401 at 0.050000 m/pix
+[planner_server-47] [INFO] [1791334642.931595890] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-47] [INFO] [1791334642.931669034] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-47] [INFO] [1791334642.934988757] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-52] [INFO] [1791334642.970935341] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-48] [INFO] [1791334642.971360217] [behavior_server]: Configuring
+[behavior_server-48] [INFO] [1791334642.988985394] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-48] [INFO] [1791334642.991619798] [behavior_server]: Configuring spin
+[behavior_server-48] [INFO] [1791334643.011033442] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-48] [INFO] [1791334643.013385611] [behavior_server]: Configuring backup
+[lifecycle_manager-44] [INFO] [1791334643.013755960] [lifecycle_manager_localization]: Server amcl connected with bond.
+[lifecycle_manager-44] [INFO] [1791334643.013805327] [lifecycle_manager_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-44] [INFO] [1791334643.013842269] [lifecycle_manager_localization]: [34m[1mCreating bond timer...[0m[0m
+[behavior_server-48] [INFO] [1791334643.034891810] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-48] [INFO] [1791334643.038134301] [behavior_server]: Configuring drive_on_heading
+[behavior_server-48] [INFO] [1791334643.061438589] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-48] [INFO] [1791334643.066094751] [behavior_server]: Configuring assisted_teleop
+[behavior_server-48] [INFO] [1791334643.088352360] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-48] [INFO] [1791334643.091254530] [behavior_server]: Configuring wait
+[ign gazebo-1] [1;33m[Wrn] [ColladaLoader.cc:2675] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[lifecycle_manager-52] [INFO] [1791334643.107550447] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-49] [INFO] [1791334643.107837232] [bt_navigator]: Configuring
+[ign gazebo-1] [1;33m[Wrn] [ColladaLoader.cc:2675] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:528] [0m[1;36mExiting postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:501] [0m[1;36mCreating PostUpdate worker threads: [0m[1;36m8[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m0[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m1[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m2[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m3[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m4[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m5[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [SimulationRunner.cc:512] [0m[1;36mCreating postupdate worker thread ([0m[1;36m6[0m[1;36m)[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:610] [0m[1;36mInitialization needed[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:270] [0m[1;36mInitializing render context[0m[1;36m[0m
+[ign gazebo-1] [1;32m[Msg] [0m[1;32mLoading plugin [[0m[1;32mignition-rendering-ogre2[0m[1;32m][0m[1;32m[0m
+[ign gazebo-1] [1;36m[Dbg] [RenderUtil.cc:2591] [0m[1;36mCreate scene [[0m[1;36mscene[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:284] [0m[1;36mRendering Thread initialized[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Sensors.cc:610] [0m[1;36mInitialization needed[0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [RgbdCameraSensor.cc:219] [0m[1;36mRGB images for [[0m[1;36mturtlebot4::oakd_rgb_camera_frame::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera[0m[1;36m/image][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [RgbdCameraSensor.cc:233] [0m[1;36mDepth images for [[0m[1;36mturtlebot4::oakd_rgb_camera_frame::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera[0m[1;36m/depth_image][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [RgbdCameraSensor.cc:247] [0m[1;36mPoints for [[0m[1;36mturtlebot4::oakd_rgb_camera_frame::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera[0m[1;36m/points][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [CameraSensor.cc:705] [0m[1;36mCamera info for [[0m[1;36mturtlebot4::oakd_rgb_camera_frame::rgbd_camera[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::base_link::cliff_front_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::base_link::cliff_front_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::base_link::cliff_front_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::base_link::cliff_front_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::base_link::cliff_side_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::base_link::cliff_side_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::base_link::cliff_side_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::base_link::cliff_side_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_front_center_left::ir_intensity_front_center_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_front_center_left::ir_intensity_front_center_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_front_center_right::ir_intensity_front_center_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_front_center_right::ir_intensity_front_center_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_front_left::ir_intensity_front_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_front_left::ir_intensity_front_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_front_right::ir_intensity_front_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_front_right::ir_intensity_front_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_left::ir_intensity_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_left::ir_intensity_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_right::ir_intensity_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan[0m[1;36m][0m[1;36m[0m
+[rviz2-53] [INFO] [1791334643.270713277] [rviz2]: Trying to create a map of size 354 x 401 using 1 swatches
+[rviz2-53] [ERROR] [1791334643.274892902] [rviz2]: Vertex Program:rviz/glsl120/indexed_8bit_image.vert Fragment Program:rviz/glsl120/indexed_8bit_image.frag GLSL link result : 
+[rviz2-53] active samplers with a different type refer to the same texture image unit
+[lifecycle_manager-52] [INFO] [1791334643.334827911] [lifecycle_manager_navigation]: [34m[1mConfiguring waypoint_follower[0m[0m
+[waypoint_follower-50] [INFO] [1791334643.335706731] [waypoint_follower]: Configuring
+[waypoint_follower-50] [INFO] [1791334643.377734422] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-52] [INFO] [1791334643.379173374] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-51] [INFO] [1791334643.379554023] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-52] [INFO] [1791334643.389681582] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-45] [INFO] [1791334643.389895853] [controller_server]: Activating
+[controller_server-45] [INFO] [1791334643.389935842] [local_costmap.local_costmap]: Activating
+[controller_server-45] [INFO] [1791334643.389949289] [local_costmap.local_costmap]: Checking transform
+[controller_server-45] [INFO] [1791334643.389985490] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[parameter_bridge-9] [INFO] [1791334643.406270095] [cmd_vel_bridge]: Passing message from ROS geometry_msgs/msg/Twist to Gazebo gz.msgs.Twist (showing msg only once per type)
+[spawner-28] [INFO] [1791334643.408111127] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[controller_server-45] [INFO] [1791334643.412386180] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 354 X 401 at 0.050000 m/pix
+[turtlebot4_node-27] [INFO] [1791334643.473264495] [turtlebot4_node]: OAKD stopped
+[turtlebot4_node-27] [INFO] [1791334643.473403218] [turtlebot4_node]: RPLIDAR stopped
+[INFO] [spawner-28]: process has finished cleanly [pid 20511]
+[INFO] [spawner-54]: process started with pid [21616]
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_right::ir_intensity_right[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::ir_intensity_side_left::ir_intensity_side_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::ir_intensity_side_left::ir_intensity_side_left[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mturtlebot4::rplidar_link::rplidar[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mturtlebot4::rplidar_link::rplidar[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mstandard_dock::green_buoy_link::green_buoy[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/green_buoy_link/sensor/green_buoy/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mstandard_dock::green_buoy_link::green_buoy[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/green_buoy_link/sensor/green_buoy/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mstandard_dock::halo_link::halo[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/halo_link/sensor/halo/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mstandard_dock::halo_link::halo[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/halo_link/sensor/halo/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mstandard_dock::red_buoy_link::red_buoy[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/red_buoy_link/sensor/red_buoy/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mstandard_dock::red_buoy_link::red_buoy[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/red_buoy_link/sensor/red_buoy/scan/points[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [Lidar.cc:138] [0m[1;36mLaser scans for [[0m[1;36mstandard_dock::yellow_buoy_link::yellow_buoy[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/yellow_buoy_link/sensor/yellow_buoy/scan[0m[1;36m][0m[1;36m[0m
+[ign gazebo-1] [1;36m[Dbg] [GpuLidarSensor.cc:163] [0m[1;36mLidar points for [[0m[1;36mstandard_dock::yellow_buoy_link::yellow_buoy[0m[1;36m] advertised on [[0m[1;36mworld/maze/model/standard_dock/link/yellow_buoy_link/sensor/yellow_buoy/scan/points[0m[1;36m][0m[1;36m[0m
+[controller_server-45] [INFO] [1791334643.890971425] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[ign gazebo-1] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2675] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[ign gazebo-1] [1;33m[GUI] [Wrn] [ColladaLoader.cc:2675] [0m[1;33mTriangle input semantic: '[0m[1;33mCOLOR[0m[1;33m' is currently[0m[1;33m not supported[0m[1;33m[0m
+[ign gazebo-1] [INFO] [1791334644.364718204] [controller_manager]: Loading controller 'diffdrive_controller'
+[controller_server-45] [INFO] [1791334644.390965176] [local_costmap.local_costmap]: Timed out waiting for transform from base_link to odom to become available, tf error: Could not find a connection between 'odom' and 'base_link' because they are not part of the same tree.Tf has two or more unconnected trees.
+[spawner-54] [INFO] [1791334644.502070903] [spawner_diffdrive_controller]: [94mLoaded [1mdiffdrive_controller[0m
+[ign gazebo-1] [INFO] [1791334644.588327478] [controller_manager]: Configuring controller 'diffdrive_controller'
+[spawner-54] [INFO] [1791334644.655596864] [spawner_diffdrive_controller]: [92mConfigured and activated [1mdiffdrive_controller[0m
+[amcl-43] [INFO] [1791334644.734586531] [amcl]: createLaserObject
+[INFO] [spawner-54]: process has finished cleanly [pid 21616]
+[controller_server-45] [INFO] [1791334644.890209347] [local_costmap.local_costmap]: start
+[controller_server-45] [ERROR] [1791334645.844333074] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-45] [INFO] [1791334645.894121194] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334646.005295238] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-52] [INFO] [1791334646.005363242] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-46] [INFO] [1791334646.005943554] [smoother_server]: Activating
+[smoother_server-46] [INFO] [1791334646.005994584] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334646.167675375] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-52] [INFO] [1791334646.167752677] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-47] [INFO] [1791334646.210111090] [planner_server]: Activating
+[planner_server-47] [INFO] [1791334646.210348648] [global_costmap.global_costmap]: Activating
+[planner_server-47] [INFO] [1791334646.210370120] [global_costmap.global_costmap]: Checking transform
+[planner_server-47] [INFO] [1791334646.210404578] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334646.710457689] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334646.840025010] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334647.210454973] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334647.561051819] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334647.710522277] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334648.210467513] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334648.240358478] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334648.710475036] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334649.001136781] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334649.210478071] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-43] [WARN] [1791334649.224670630] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-47] [INFO] [1791334649.710478716] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334649.772920462] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334650.210471357] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-53] [INFO] [1791334650.486896018] [rviz]: Message Filter dropping message: frame 'turtlebot4/rplidar_link/rplidar' at time 2.226 for reason 'discarding message because the queue is full'
+[controller_server-45] [ERROR] [1791334650.543526404] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334650.710489543] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334651.210457813] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334651.325387329] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334651.710483230] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334652.084811613] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334652.210457569] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334652.710484236] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334652.824983901] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334653.210464313] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334653.587474127] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-53] [INFO] [1791334653.637200415] [rviz]: Message Filter dropping message: frame 'odom' at time 0.408 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334653.710481469] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334654.210466264] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-43] [WARN] [1791334654.243886153] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[controller_server-45] [ERROR] [1791334654.367539387] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334654.710505771] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334655.076752933] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334655.210468301] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334655.710474752] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334655.777902551] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334656.210474504] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334656.519907068] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-53] [INFO] [1791334656.636959286] [rviz]: Message Filter dropping message: frame 'turtlebot4/rplidar_link/rplidar' at time 4.737 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334656.710457578] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334657.210491225] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334657.279850299] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334657.710458408] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334658.020652615] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334658.211135719] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334658.710462484] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334658.740487475] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[amcl-43] [WARN] [1791334659.131270217] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-47] [INFO] [1791334659.210457665] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334659.501745525] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334659.710473433] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334660.210476611] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334660.242761186] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-53] [INFO] [1791334660.287303396] [rviz]: Message Filter dropping message: frame 'odom' at time 3.147 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334660.710457552] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334660.984418880] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-53] [INFO] [1791334660.987232526] [rviz]: Message Filter dropping message: frame 'odom' at time 0.723 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334661.210463907] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334661.710518182] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334661.724879725] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334662.210465042] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334662.475143774] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334662.710475914] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[rviz2-53] [INFO] [1791334662.837856028] [rviz]: Message Filter dropping message: frame 'turtlebot4/rplidar_link/rplidar' at time 7.251 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334663.210473815] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334663.217547944] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334663.710460372] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334663.937408350] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[amcl-43] [WARN] [1791334664.059424713] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[planner_server-47] [INFO] [1791334664.210454588] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334664.700060198] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334664.710456377] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334665.210479713] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334665.461989616] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334665.710547645] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334666.210453403] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334666.329046732] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-47] [INFO] [1791334666.711044895] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[planner_server-47] [INFO] [1791334667.210431849] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-45] [ERROR] [1791334667.587237361] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[rviz2-53] [INFO] [1791334667.588131195] [rviz]: Message Filter dropping message: frame 'odom' at time 5.874 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334667.710501791] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[amcl-43] [INFO] [1791334667.915439602] [amcl]: initialPoseReceived
+[amcl-43] [WARN] [1791334667.915562693] [amcl]: Failed to transform initial pose in time (Lookup would require extrapolation into the future.  Requested time 9.306000 but the latest data is at time 9.294000, when looking up transform from frame [base_link] to frame [odom])
+[amcl-43] [INFO] [1791334667.915587612] [amcl]: Setting pose (9.306000): 0.000 0.000 0.000
+[planner_server-47] [INFO] [1791334668.210521852] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 9.408000 but the earliest data is at time 10.297000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-47] [INFO] [1791334668.711080938] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 9.600000 but the earliest data is at time 10.297000, when looking up transform from frame [base_link] to frame [map]
+[motion_control-31] [INFO] [1791334668.964471641] [motion_control]: Received new undock goal
+[rviz2-53] [INFO] [1791334669.037572134] [rviz]: Message Filter dropping message: frame 'odom' at time 3.762 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334669.210520533] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 9.762000 but the earliest data is at time 10.297000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-47] [INFO] [1791334669.710498394] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 9.906000 but the earliest data is at time 10.297000, when looking up transform from frame [base_link] to frame [map]
+[turtlebot4_node-27] [INFO] [1791334669.789563031] [turtlebot4_node]: OAKD started
+[turtlebot4_node-27] [INFO] [1791334669.789633649] [turtlebot4_node]: RPLIDAR started
+[rviz2-53] [INFO] [1791334670.037696558] [rviz]: Message Filter dropping message: frame 'turtlebot4/rplidar_link/rplidar' at time 9.795 for reason 'discarding message because the queue is full'
+[planner_server-47] [INFO] [1791334670.210481130] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 10.083000 but the earliest data is at time 10.297000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-47] [INFO] [1791334670.710481108] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 10.260000 but the earliest data is at time 10.297000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-47] [INFO] [1791334671.210548445] [global_costmap.global_costmap]: start
+[rviz2-53] [INFO] [1791334672.039611444] [rviz2]: Trying to create a map of size 50 x 50 using 1 swatches
+[planner_server-47] [INFO] [1791334672.263035989] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-47] [INFO] [1791334672.267685839] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334672.385358723] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-52] [INFO] [1791334672.385452767] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-48] [INFO] [1791334672.386637230] [behavior_server]: Activating
+[behavior_server-48] [INFO] [1791334672.386710364] [behavior_server]: Activating spin
+[behavior_server-48] [INFO] [1791334672.386747908] [behavior_server]: Activating backup
+[behavior_server-48] [INFO] [1791334672.386761795] [behavior_server]: Activating drive_on_heading
+[behavior_server-48] [INFO] [1791334672.386774500] [behavior_server]: Activating assisted_teleop
+[behavior_server-48] [INFO] [1791334672.386785050] [behavior_server]: Activating wait
+[behavior_server-48] [INFO] [1791334672.386801322] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334672.503204576] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-52] [INFO] [1791334672.503310684] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-49] [INFO] [1791334672.504055895] [bt_navigator]: Activating
+[bt_navigator-49] [INFO] [1791334672.729390797] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334672.844624787] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-52] [INFO] [1791334672.844683232] [lifecycle_manager_navigation]: [34m[1mActivating waypoint_follower[0m[0m
+[waypoint_follower-50] [INFO] [1791334672.845227289] [waypoint_follower]: Activating
+[waypoint_follower-50] [INFO] [1791334672.845270914] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334672.959145558] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-52] [INFO] [1791334672.959204434] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-51] [INFO] [1791334672.959790934] [velocity_smoother]: Activating
+[velocity_smoother-51] [INFO] [1791334672.959915258] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-52] [INFO] [1791334673.069876191] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-52] [INFO] [1791334673.070041866] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-52] [INFO] [1791334673.070087275] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[turtlebot4_node-27] [ERROR] [1791334673.486364555] [turtlebot4_node]: Service oakd/stop_camera unavailable.
+[turtlebot4_node-27] [ERROR] [1791334673.496672450] [turtlebot4_node]: Service stop_motor unavailable.
+[rviz2-53] [INFO] [1791334681.850557049] [rviz]: Message Filter dropping message: frame 'odom' at time 5.577 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-53] [INFO] [1791334689.713489681] [rviz]: Message Filter dropping message: frame 'odom' at time 8.595 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-53] [INFO] [1791334692.747647108] [rviz]: Message Filter dropping message: frame 'odom' at time 9.762 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[motion_control-31] [INFO] [1791334693.410587788] [motion_control]: Undock Goal Succeeded
+[bt_navigator-49] [INFO] [1791334693.451884534] [bt_navigator]: Begin navigating from current location (-0.31, 0.00) to (-3.00, 0.00)
+[controller_server-45] [INFO] [1791334693.472784570] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-45] [WARN] [1791334693.472844978] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-45] [INFO] [1791334694.523051047] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334695.573060111] [controller_server]: Passing new path to controller.
+[rviz2-53] [INFO] [1791334696.334192218] [rviz]: Message Filter dropping message: frame 'turtlebot4/rplidar_link/rplidar' at time 10.146 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[controller_server-45] [INFO] [1791334696.573051168] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334697.623046136] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334698.623164425] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334699.673463824] [controller_server]: Passing new path to controller.
+[turtlebot4_node-27] [ERROR] [1791334699.802546328] [turtlebot4_node]: Service oakd/start_camera unavailable.
+[turtlebot4_node-27] [ERROR] [1791334699.812991249] [turtlebot4_node]: Service start_motor unavailable.
+[controller_server-45] [INFO] [1791334700.723066875] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334701.723055550] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334702.773190151] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334703.773045596] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334704.823080385] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334705.823049566] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334706.873305344] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334707.923353886] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334708.923058146] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334709.973074557] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334710.973045618] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334712.023208135] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334713.073354018] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334714.073047626] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334715.123190562] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334716.123052156] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334717.173351751] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334718.223045059] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334719.223055141] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334720.273051939] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334721.273060484] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334722.323049446] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334723.323047108] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334724.373281493] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334725.423050943] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334726.423251093] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334727.473049136] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334728.473044943] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334729.523063366] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334730.573057919] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334731.573258710] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334732.028529824] [controller_server]: Reached the goal!
+[bt_navigator-49] [INFO] [1791334732.062294103] [bt_navigator]: Goal succeeded
+[bt_navigator-49] [INFO] [1791334732.063826181] [bt_navigator]: Begin navigating from current location (-2.80, 0.00) to (-3.00, 4.00)
+[controller_server-45] [INFO] [1791334732.085013703] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-45] [INFO] [1791334733.135473665] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334734.185571130] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334735.185380634] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334736.235377402] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334737.235392264] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334738.285375277] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334739.335370026] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334740.335402995] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334741.385368122] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334742.385365395] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334743.435385139] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334744.485376523] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334745.485377124] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334746.535374583] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334747.535386105] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334748.585389612] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334749.635373812] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334750.635378121] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334751.685379804] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334752.685381013] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334753.735369754] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334754.735385851] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334755.785388264] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334756.785377370] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334757.835370503] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334758.835373179] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334759.885409356] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334760.935435921] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334761.935381959] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334762.985376856] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334763.985392059] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334765.035376798] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334766.085372457] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334767.085399013] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334768.135389463] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334769.135371138] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334770.185417028] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334771.235379049] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334772.235381213] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334773.285380093] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334774.285383762] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334775.335376098] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334776.335368088] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334777.385378511] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334778.435369173] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334779.435370143] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334780.485500984] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334781.485371721] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334782.535371082] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334783.585369974] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334784.585374993] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334785.635382142] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334786.635372348] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334787.685375251] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334788.685373761] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334789.735403382] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334790.785375718] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334791.785378638] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334792.192785266] [controller_server]: Reached the goal!
+[bt_navigator-49] [INFO] [1791334792.224248602] [bt_navigator]: Goal succeeded
+[bt_navigator-49] [INFO] [1791334792.226686014] [bt_navigator]: Begin navigating from current location (-2.88, 3.86) to (2.00, 0.00)
+[controller_server-45] [INFO] [1791334792.247625397] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-45] [INFO] [1791334793.297871025] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334794.347864702] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334795.348181439] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334796.397870317] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334797.397877560] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334798.447867578] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334799.447936670] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334800.497909581] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334801.497902096] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334802.547867031] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334803.597867498] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334804.597866417] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334805.647871165] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334806.647861444] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334807.699346077] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334808.747868991] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334809.747870210] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334810.797873032] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334811.797869875] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334812.847886684] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334813.898175890] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334814.898351637] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334815.948622500] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334816.947866687] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334817.999118848] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334818.997866812] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334820.047962993] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334821.048110009] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334822.098706409] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334823.147882208] [controller_server]: Passing new path to controller.
+[bt_navigator-49] [WARN] [1791334823.351660164] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334823.408246140] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[bt_navigator-49] [WARN] [1791334823.440187853] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334823.486306736] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334823.553526486] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-45] [INFO] [1791334824.148062128] [controller_server]: Passing new path to controller.
+[bt_navigator-49] [WARN] [1791334824.947057453] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334824.963384507] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[bt_navigator-49] [WARN] [1791334824.967604714] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.201961642] [bt_navigator_navigate_to_pose_rclcpp_node]: Timed out while waiting for action server to acknowledge goal request for follow_path
+[bt_navigator-49] [WARN] [1791334825.207590999] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.278911269] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.298556711] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.317018800] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334825.325341755] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-45] [INFO] [1791334825.335172141] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[bt_navigator-49] [WARN] [1791334825.346639068] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334825.366281464] [controller_server]: [follow_path] [ActionServer] Aborting handle.
+[bt_navigator-49] [WARN] [1791334825.398092045] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [INFO] [1791334825.405112196] [controller_server]: Passing new path to controller.
+[bt_navigator-49] [WARN] [1791334825.441385043] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.488340607] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334825.528510344] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[bt_navigator-49] [WARN] [1791334825.917448191] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.919116073] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334825.974434369] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334826.010485295] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [INFO] [1791334826.225420336] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334827.226045106] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334828.275417662] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334829.275572428] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334830.325415413] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334831.375514360] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334832.375463981] [controller_server]: Passing new path to controller.
+[bt_navigator-49] [WARN] [1791334832.955345845] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334833.389053566] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[bt_navigator-49] [WARN] [1791334833.425199615] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334833.425540816] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [INFO] [1791334833.440267024] [controller_server]: Passing new path to controller.
+[bt_navigator-49] [WARN] [1791334833.480747787] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334833.496962638] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334833.518468695] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334833.534514539] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334833.535656200] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334833.645383913] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [INFO] [1791334834.475428732] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334835.475420332] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334836.525595818] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334837.525409989] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334838.575415822] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334839.575410840] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334840.625434044] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334841.675449885] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334842.675424468] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334843.725407886] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334844.725408873] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334845.775533024] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334846.775417058] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334847.825410791] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334848.825410894] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334849.875421835] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334850.925433824] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334851.925422112] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334852.975415863] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334853.975409751] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334855.025418960] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334856.025411395] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334857.075424110] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334858.125422745] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334859.125426540] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334860.175430029] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334861.175414311] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334862.225417696] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334863.225426512] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334864.275425687] [controller_server]: Passing new path to controller.
+[bt_navigator-49] [WARN] [1791334865.259446893] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334865.277539250] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[controller_server-45] [INFO] [1791334865.277593475] [controller_server]: Passing new path to controller.
+[controller_server-45] [WARN] [1791334865.626290441] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[bt_navigator-49] [WARN] [1791334865.717943847] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [WARN] [1791334865.728920627] [controller_server]: Control loop missed its desired rate of 20.0000Hz
+[bt_navigator-49] [WARN] [1791334866.185078381] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334866.185804845] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[bt_navigator-49] [WARN] [1791334866.245907701] [BehaviorTreeEngine]: Behavior Tree tick rate 100.00 was exceeded!
+[controller_server-45] [INFO] [1791334866.325410700] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334867.325429654] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334868.375620619] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334869.425416524] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334870.425414688] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334871.475439639] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334872.475422447] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334873.525430601] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334874.575407901] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334875.575425383] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334876.625417850] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334877.625413997] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334878.675420120] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334879.675437769] [controller_server]: Passing new path to controller.
+[controller_server-45] [INFO] [1791334880.580328419] [controller_server]: Reached the goal!
+[bt_navigator-49] [INFO] [1791334880.615574277] [bt_navigator]: Goal succeeded

@@ -1,0 +1,572 @@
+[INFO] [launch]: All log files can be found below /home/linh/.ros/log/2026-10-07-07-47-57-713407-linh-IdeaPad-Gaming-3-15ACH6-14522
+[INFO] [launch]: Default logging verbosity is set to INFO
+ign_args is deprecated, migrate to gz_args!
+[INFO] [ign gazebo-1]: process started with pid [14618]
+[INFO] [parameter_bridge-2]: process started with pid [14620]
+[INFO] [robot_state_publisher-3]: process started with pid [14623]
+[INFO] [joint_state_publisher-4]: process started with pid [14625]
+[INFO] [robot_state_publisher-5]: process started with pid [14627]
+[INFO] [static_transform_publisher-6]: process started with pid [14629]
+[INFO] [create-7]: process started with pid [14631]
+[INFO] [create-8]: process started with pid [14633]
+[INFO] [parameter_bridge-9]: process started with pid [14635]
+[INFO] [parameter_bridge-10]: process started with pid [14638]
+[INFO] [parameter_bridge-11]: process started with pid [14643]
+[INFO] [parameter_bridge-12]: process started with pid [14645]
+[INFO] [parameter_bridge-13]: process started with pid [14647]
+[INFO] [parameter_bridge-14]: process started with pid [14649]
+[INFO] [parameter_bridge-15]: process started with pid [14651]
+[INFO] [parameter_bridge-16]: process started with pid [14653]
+[INFO] [parameter_bridge-17]: process started with pid [14655]
+[INFO] [parameter_bridge-18]: process started with pid [14658]
+[INFO] [parameter_bridge-19]: process started with pid [14660]
+[INFO] [parameter_bridge-20]: process started with pid [14662]
+[INFO] [parameter_bridge-21]: process started with pid [14671]
+[INFO] [parameter_bridge-22]: process started with pid [14680]
+[INFO] [parameter_bridge-23]: process started with pid [14685]
+[INFO] [parameter_bridge-24]: process started with pid [14702]
+[INFO] [parameter_bridge-25]: process started with pid [14712]
+[INFO] [parameter_bridge-26]: process started with pid [14715]
+[INFO] [turtlebot4_node-27]: process started with pid [14718]
+[INFO] [spawner-28]: process started with pid [14721]
+[INFO] [hazards_vector_publisher-29]: process started with pid [14723]
+[INFO] [ir_intensity_vector_publisher-30]: process started with pid [14725]
+[INFO] [motion_control-31]: process started with pid [14730]
+[INFO] [wheel_status_publisher-32]: process started with pid [14744]
+[INFO] [mock_publisher-33]: process started with pid [14762]
+[INFO] [robot_state-34]: process started with pid [14781]
+[INFO] [kidnap_estimator_publisher-35]: process started with pid [14793]
+[INFO] [ui_mgr-36]: process started with pid [14795]
+[INFO] [pose_republisher_node-37]: process started with pid [14813]
+[INFO] [sensors_node-38]: process started with pid [14821]
+[INFO] [interface_buttons_node-39]: process started with pid [14857]
+[INFO] [static_transform_publisher-40]: process started with pid [14865]
+[INFO] [static_transform_publisher-41]: process started with pid [14890]
+[INFO] [sync_slam_toolbox_node-42]: process started with pid [14904]
+[INFO] [rviz2-43]: process started with pid [14908]
+[robot_state_publisher-3] [WARN] [1791334078.795694429] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-3] [INFO] [1791334078.795888872] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1791334078.795961778] [robot_state_publisher]: got segment bump_front_center
+[robot_state_publisher-3] [INFO] [1791334078.795971155] [robot_state_publisher]: got segment bump_front_left
+[robot_state_publisher-3] [INFO] [1791334078.795977848] [robot_state_publisher]: got segment bump_front_right
+[robot_state_publisher-3] [INFO] [1791334078.795984881] [robot_state_publisher]: got segment bump_left
+[robot_state_publisher-3] [INFO] [1791334078.795991644] [robot_state_publisher]: got segment bump_right
+[robot_state_publisher-3] [INFO] [1791334078.795998336] [robot_state_publisher]: got segment bumper
+[robot_state_publisher-3] [INFO] [1791334078.796005269] [robot_state_publisher]: got segment button_1
+[robot_state_publisher-3] [INFO] [1791334078.796011691] [robot_state_publisher]: got segment button_2
+[robot_state_publisher-3] [INFO] [1791334078.796017973] [robot_state_publisher]: got segment button_power
+[robot_state_publisher-3] [INFO] [1791334078.799404089] [robot_state_publisher]: got segment cliff_front_left
+[robot_state_publisher-3] [INFO] [1791334078.799415690] [robot_state_publisher]: got segment cliff_front_right
+[robot_state_publisher-3] [INFO] [1791334078.799423886] [robot_state_publisher]: got segment cliff_side_left
+[robot_state_publisher-3] [INFO] [1791334078.799431881] [robot_state_publisher]: got segment cliff_side_right
+[robot_state_publisher-3] [INFO] [1791334078.799439455] [robot_state_publisher]: got segment front_caster_link
+[robot_state_publisher-3] [INFO] [1791334078.799447119] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-3] [INFO] [1791334078.799454613] [robot_state_publisher]: got segment ir_intensity_front_center_left
+[robot_state_publisher-3] [INFO] [1791334078.799462848] [robot_state_publisher]: got segment ir_intensity_front_center_right
+[robot_state_publisher-3] [INFO] [1791334078.799470342] [robot_state_publisher]: got segment ir_intensity_front_left
+[robot_state_publisher-3] [INFO] [1791334078.799477796] [robot_state_publisher]: got segment ir_intensity_front_right
+[robot_state_publisher-3] [INFO] [1791334078.799486132] [robot_state_publisher]: got segment ir_intensity_left
+[robot_state_publisher-3] [INFO] [1791334078.799493716] [robot_state_publisher]: got segment ir_intensity_right
+[robot_state_publisher-3] [INFO] [1791334078.799501491] [robot_state_publisher]: got segment ir_intensity_side_left
+[robot_state_publisher-3] [INFO] [1791334078.799509205] [robot_state_publisher]: got segment ir_omni
+[robot_state_publisher-3] [INFO] [1791334078.799517531] [robot_state_publisher]: got segment left_wheel
+[robot_state_publisher-3] [INFO] [1791334078.799525165] [robot_state_publisher]: got segment mouse
+[robot_state_publisher-3] [INFO] [1791334078.799533060] [robot_state_publisher]: got segment oakd_camera_bracket
+[robot_state_publisher-3] [INFO] [1791334078.799541075] [robot_state_publisher]: got segment oakd_imu_frame
+[robot_state_publisher-3] [INFO] [1791334078.799548959] [robot_state_publisher]: got segment oakd_left_camera_frame
+[robot_state_publisher-3] [INFO] [1791334078.799556654] [robot_state_publisher]: got segment oakd_left_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791334078.799564398] [robot_state_publisher]: got segment oakd_link
+[robot_state_publisher-3] [INFO] [1791334078.799571852] [robot_state_publisher]: got segment oakd_rgb_camera_frame
+[robot_state_publisher-3] [INFO] [1791334078.799579617] [robot_state_publisher]: got segment oakd_rgb_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791334078.799586990] [robot_state_publisher]: got segment oakd_right_camera_frame
+[robot_state_publisher-3] [INFO] [1791334078.799595166] [robot_state_publisher]: got segment oakd_right_camera_optical_frame
+[robot_state_publisher-3] [INFO] [1791334078.799603020] [robot_state_publisher]: got segment right_wheel
+[robot_state_publisher-3] [INFO] [1791334078.799611286] [robot_state_publisher]: got segment rplidar_link
+[robot_state_publisher-3] [INFO] [1791334078.799619231] [robot_state_publisher]: got segment wheel_drop_left
+[robot_state_publisher-3] [INFO] [1791334078.799626965] [robot_state_publisher]: got segment wheel_drop_right
+[robot_state_publisher-5] [WARN] [1791334078.796064941] [kdl_parser]: The root link std_dock_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-5] [INFO] [1791334078.796152775] [dock_state_publisher]: got segment green_buoy_link
+[robot_state_publisher-5] [INFO] [1791334078.796221774] [dock_state_publisher]: got segment halo_link
+[robot_state_publisher-5] [INFO] [1791334078.796232494] [dock_state_publisher]: got segment red_buoy_link
+[robot_state_publisher-5] [INFO] [1791334078.796240028] [dock_state_publisher]: got segment std_dock_link
+[robot_state_publisher-5] [INFO] [1791334078.796246740] [dock_state_publisher]: got segment yellow_buoy_link
+[static_transform_publisher-6] [WARN] [1791334078.719536958] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1791334078.786602384] [tf_odom_std_dock_link_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.157000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '1.000000', '0.000000')
+[static_transform_publisher-6] from 'odom' to 'std_dock_link'
+[create-7] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-7] 
+[create-8] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-8] 
+[parameter_bridge-15] [INFO] [1791334078.948172245] [cliff_side_left_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/base_link/sensor/cliff_side_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[turtlebot4_node-27] [INFO] [1791334078.845528995] [turtlebot4_node]: Init Turtlebot4 Node Main
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.966345665] [ir_intensity_vector_publisher]: Advertised topic: ir_intensity
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.967842431] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_center_left
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.968242428] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_center_right
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.968620314] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_left
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.969001717] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_front_right
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.969529312] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_left
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.971389738] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_right
+[ir_intensity_vector_publisher-30] [INFO] [1791334078.974485220] [ir_intensity_vector_publisher]: Subscription to topic: _internal/ir_intensity_side_left
+[static_transform_publisher-40] [WARN] [1791334078.938897629] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-41] [WARN] [1791334078.954798423] []: Old-style arguments are deprecated; see --help for new-style arguments
+[hazards_vector_publisher-29] [INFO] [1791334078.979457008] [hazards_vector_publisher]: Advertised topic: hazard_detection
+[hazards_vector_publisher-29] [INFO] [1791334079.001988059] [hazards_vector_publisher]: Subscription to topic: _internal/bumper/event
+[hazards_vector_publisher-29] [INFO] [1791334079.002386273] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_front_left/event
+[hazards_vector_publisher-29] [INFO] [1791334079.002669763] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_front_right/event
+[hazards_vector_publisher-29] [INFO] [1791334079.002942082] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_side_left/event
+[turtlebot4_node-27] [INFO] [1791334079.004162411] [turtlebot4_node]: Buttons Init
+[turtlebot4_node-27] [INFO] [1791334079.009230100] [turtlebot4_node]: Turtlebot4 lite running.
+[hazards_vector_publisher-29] [INFO] [1791334079.009359702] [hazards_vector_publisher]: Subscription to topic: _internal/cliff_side_right/event
+[hazards_vector_publisher-29] [INFO] [1791334079.021520461] [hazards_vector_publisher]: Subscription to topic: _internal/wheel_drop/left_wheel/event
+[hazards_vector_publisher-29] [INFO] [1791334079.025598380] [hazards_vector_publisher]: Subscription to topic: _internal/wheel_drop/right_wheel/event
+[hazards_vector_publisher-29] [INFO] [1791334079.027795836] [hazards_vector_publisher]: Subscription to topic: _internal/backup_limit
+[create-8] [INFO] [1791334079.030058433] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-2] [INFO] [1791334079.032532545] [clock_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[rviz2-43] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[parameter_bridge-20] [INFO] [1791334079.050602976] [ir_intensity_front_right_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_front_right/sensor/ir_intensity_front_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-21] [INFO] [1791334079.094372881] [ir_intensity_left_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_left/sensor/ir_intensity_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[create-7] [INFO] [1791334079.125704969] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-18] [INFO] [1791334079.131474488] [ir_intensity_front_center_right_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_front_center_right/sensor/ir_intensity_front_center_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-23] [INFO] [1791334079.199844734] [ir_intensity_side_left_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_side_left/sensor/ir_intensity_side_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[rviz2-43] /opt/ros/humble/lib/rviz2/rviz2: symbol lookup error: /snap/core20/current/lib/x86_64-linux-gnu/libpthread.so.0: undefined symbol: __libc_pthread_init, version GLIBC_PRIVATE
+[ERROR] [rviz2-43]: process has died [pid 14908, exit code 127, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/linh/ros2_ws/install/turtlebot4_lab/share/turtlebot4_lab/config/lab.rviz -f map --ros-args --params-file /tmp/launch_params_pkxhprjl'].
+[motion_control-31] [INFO] [1791334079.231303639] [motion_control]: Enabling REFLEX_BUMP
+[kidnap_estimator_publisher-35] [INFO] [1791334079.245008443] [kidnap_estimator_publisher]: Advertised topic: kidnap_status
+[kidnap_estimator_publisher-35] [INFO] [1791334079.248173947] [kidnap_estimator_publisher]: Subscription to topic: hazard_detection
+[motion_control-31] [INFO] [1791334079.248762517] [motion_control]: Enabling REFLEX_CLIFF
+[motion_control-31] [INFO] [1791334079.248976968] [motion_control]: Enabling REFLEX_STUCK
+[motion_control-31] [INFO] [1791334079.249045686] [motion_control]: Enabling REFLEX_WHEEL_DROP
+[parameter_bridge-12] [INFO] [1791334079.285522866] [bumper_contact_bridge]: Creating GZ->ROS Bridge: [/bumper_contact (ignition.msgs.Contacts) -> /bumper_contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)
+[robot_state-34] [INFO] [1791334079.298394274] [robot_state]: Advertised topic: battery_state
+[robot_state-34] [INFO] [1791334079.304683013] [robot_state]: Subscription to topic: dock_status
+[robot_state-34] [INFO] [1791334079.305460115] [robot_state]: Advertised topic: stop_status
+[robot_state-34] [INFO] [1791334079.306831718] [robot_state]: Subscription to topic: odom
+[parameter_bridge-25] [INFO] [1791334079.311734658] [lidar_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/rplidar_link/sensor/rplidar/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[static_transform_publisher-40] [INFO] [1791334079.311848110] [rplidar_stf]: Spinning until stopped - publishing transform
+[static_transform_publisher-40] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-40] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-40] from 'rplidar_link' to 'turtlebot4/rplidar_link/rplidar'
+[static_transform_publisher-41] [INFO] [1791334079.326288980] [camera_stf]: Spinning until stopped - publishing transform
+[static_transform_publisher-41] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-41] rotation: ('0.499952', '-0.500000', '0.500000', '0.500048')
+[static_transform_publisher-41] from 'oakd_rgb_camera_optical_frame' to 'turtlebot4/oakd_rgb_camera_frame/rgbd_camera'
+[parameter_bridge-17] [INFO] [1791334079.352767650] [ir_intensity_front_center_left_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_front_center_left/sensor/ir_intensity_front_center_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791334079.381315385] [camera_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/image (ignition.msgs.Image) -> /world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/image (sensor_msgs/msg/Image)] (Lazy 0)
+[wheel_status_publisher-32] [INFO] [1791334079.381397869] [wheel_status_publisher]: Advertised topic: wheel_vels
+[wheel_status_publisher-32] [INFO] [1791334079.387744907] [wheel_status_publisher]: Advertised topic: wheel_ticks
+[parameter_bridge-26] [INFO] [1791334079.388372750] [camera_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/depth_image (ignition.msgs.Image) -> /world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/depth_image (sensor_msgs/msg/Image)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791334079.393987901] [camera_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/points (ignition.msgs.PointCloudPacked) -> /world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-14] [INFO] [1791334079.422523194] [cliff_front_right_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/base_link/sensor/cliff_front_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-26] [INFO] [1791334079.428091657] [camera_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info (ignition.msgs.CameraInfo) -> /world/depot/model/turtlebot4/link/oakd_rgb_camera_frame/sensor/rgbd_camera/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)
+[mock_publisher-33] [INFO] [1791334079.435966199] [mock_publisher]: Advertised mocked topic: slip_status
+[parameter_bridge-11] [INFO] [1791334079.480432045] [odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/tf (ignition.msgs.Pose_V) -> /model/turtlebot4/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[ign gazebo-1] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[parameter_bridge-22] [INFO] [1791334079.569756840] [ir_intensity_right_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_right/sensor/ir_intensity_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-9] [INFO] [1791334079.623729367] [cmd_vel_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (ignition.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/Twist)] (Lazy 0)
+[parameter_bridge-19] [INFO] [1791334079.726732056] [ir_intensity_front_left_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/ir_intensity_front_left/sensor/ir_intensity_front_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-9] [INFO] [1791334079.738971583] [cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/turtlebot4/cmd_vel (geometry_msgs/msg/Twist) -> /model/turtlebot4/cmd_vel (ignition.msgs.Twist)] (Lazy 0)
+[parameter_bridge-13] [INFO] [1791334079.762388122] [cliff_front_left_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/base_link/sensor/cliff_front_left/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[ui_mgr-36] [INFO] [1791334079.768597543] [ui_mgr]: Subscription to topic: cmd_lightring
+[parameter_bridge-24] [INFO] [1791334079.769708308] [buttons_msg_bridge]: Creating GZ->ROS Bridge: [/create3_buttons (ignition.msgs.Int32) -> /create3_buttons (std_msgs/msg/Int32)] (Lazy 0)
+[sync_slam_toolbox_node-42] [INFO] [1791334079.790624867] [slam_toolbox]: Node using stack size 40000000
+[ui_mgr-36] [INFO] [1791334079.845431071] [ui_mgr]: Subscription to topic: cmd_audio
+[parameter_bridge-16] [INFO] [1791334080.083715131] [cliff_side_right_bridge]: Creating GZ->ROS Bridge: [/world/depot/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan (ignition.msgs.LaserScan) -> /world/depot/model/turtlebot4/link/base_link/sensor/cliff_side_right/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1791334080.148753895] [pose_bridge]: Creating GZ->ROS Bridge: [/model/turtlebot4/pose (ignition.msgs.Pose_V) -> /model/turtlebot4/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[parameter_bridge-10] [INFO] [1791334080.185892016] [pose_bridge]: Creating GZ->ROS Bridge: [/model/standard_dock/pose (ignition.msgs.Pose_V) -> /model/standard_dock/pose (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[joint_state_publisher-4] [INFO] [1791334080.303873211] [joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[spawner-28] [INFO] [1791334080.386009240] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[ign gazebo-1] [1;33m[GUI] [Wrn] [Application.cc:802] [0m[1;33m[QT] file::/Gazebo/GazeboDrawer.qml:242:3: QML Connections: Implicitly defined onFoo properties in Connections are deprecated. Use this syntax instead: function onFoo(<arguments>) { ... }[0m[1;33m[0m
+[sync_slam_toolbox_node-42] [INFO] [1791334081.128426432] [slam_toolbox]: Using solver plugin solver_plugins::CeresSolver
+[sync_slam_toolbox_node-42] [INFO] [1791334081.128653666] [slam_toolbox]: CeresSolver: Using SCHUR_JACOBI preconditioner.
+[create-8] [INFO] [1791334084.030471002] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334084.126151196] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791334089.031127139] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334089.126432352] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334090.404183238] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334090.404607051] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-8] [INFO] [1791334094.031406878] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334094.126740722] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] sequence size exceeds remaining buffer
+[parameter_bridge-13] sequence size exceeds remaining buffer
+[mock_publisher-33] sequence size exceeds remaining buffer
+[create-8] [INFO] [1791334099.031776018] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334099.127152877] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] sequence size exceeds remaining buffer
+[pose_republisher_node-37] sequence size exceeds remaining buffer
+[sensors_node-38] sequence size exceeds remaining buffer
+[interface_buttons_node-39] sequence size exceeds remaining buffer
+[parameter_bridge-25] sequence size exceeds remaining buffer
+[parameter_bridge-23] sequence size exceeds remaining buffer
+[parameter_bridge-11] sequence size exceeds remaining buffer
+[parameter_bridge-10] sequence size exceeds remaining buffer
+[ir_intensity_vector_publisher-30] sequence size exceeds remaining buffer
+[spawner-28] [WARN] [1791334100.422651132] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334100.423389694] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[static_transform_publisher-41] sequence size exceeds remaining buffer
+[parameter_bridge-11] sequence size exceeds remaining buffer
+[ir_intensity_vector_publisher-30] sequence size exceeds remaining buffer
+[hazards_vector_publisher-29] sequence size exceeds remaining buffer
+[sync_slam_toolbox_node-42] sequence size exceeds remaining buffer
+[joint_state_publisher-4] sequence size exceeds remaining buffer
+[create-8] [INFO] [1791334104.032229356] [ros_gz_sim]: Requesting list of world names.
+[ir_intensity_vector_publisher-30] sequence size exceeds remaining buffer
+[wheel_status_publisher-32] sequence size exceeds remaining buffer
+[pose_republisher_node-37] sequence size exceeds remaining buffer
+[pose_republisher_node-37] sequence size exceeds remaining buffer
+[pose_republisher_node-37] sequence size exceeds remaining buffer
+[parameter_bridge-10] sequence size exceeds remaining buffer
+[parameter_bridge-13] sequence size exceeds remaining buffer
+[create-7] [INFO] [1791334104.127482706] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-23] sequence size exceeds remaining buffer
+[static_transform_publisher-41] sequence size exceeds remaining buffer
+[parameter_bridge-11] sequence size exceeds remaining buffer
+[mock_publisher-33] sequence size exceeds remaining buffer
+[parameter_bridge-25] sequence size exceeds remaining buffer
+[sync_slam_toolbox_node-42] sequence size exceeds remaining buffer
+[spawner-28] sequence size exceeds remaining buffer
+[parameter_bridge-24] sequence size exceeds remaining buffer
+[parameter_bridge-13] sequence size exceeds remaining buffer
+[parameter_bridge-9] sequence size exceeds remaining buffer
+[hazards_vector_publisher-29] sequence size exceeds remaining buffer
+[parameter_bridge-18] sequence size exceeds remaining buffer
+[sensors_node-38] sequence size exceeds remaining buffer
+[interface_buttons_node-39] sequence size exceeds remaining buffer
+[parameter_bridge-26] sequence size exceeds remaining buffer
+[joint_state_publisher-4] sequence size exceeds remaining buffer
+[pose_republisher_node-37] sequence size exceeds remaining buffer
+[sync_slam_toolbox_node-42] sequence size exceeds remaining buffer
+[ir_intensity_vector_publisher-30] sequence size exceeds remaining buffer
+[mock_publisher-33] sequence size exceeds remaining buffer
+[parameter_bridge-9] sequence size exceeds remaining buffer
+[parameter_bridge-10] sequence size exceeds remaining buffer
+[parameter_bridge-13] sequence size exceeds remaining buffer
+[parameter_bridge-23] sequence size exceeds remaining buffer
+[sensors_node-38] sequence size exceeds remaining buffer
+[parameter_bridge-9] sequence size exceeds remaining buffer
+[parameter_bridge-24] sequence size exceeds remaining buffer
+[parameter_bridge-14] sequence size exceeds remaining buffer
+[parameter_bridge-26] sequence size exceeds remaining buffer
+[static_transform_publisher-41] sequence size exceeds remaining buffer
+[parameter_bridge-25] sequence size exceeds remaining buffer
+[parameter_bridge-12] sequence size exceeds remaining buffer
+[ui_mgr-36] sequence size exceeds remaining buffer
+[mock_publisher-33] sequence size exceeds remaining buffer
+[hazards_vector_publisher-29] sequence size exceeds remaining buffer
+[parameter_bridge-9] sequence size exceeds remaining buffer
+[ui_mgr-36] sequence size exceeds remaining buffer
+[parameter_bridge-14] sequence size exceeds remaining buffer
+[robot_state-34] sequence size exceeds remaining buffer
+[parameter_bridge-26] sequence size exceeds remaining buffer
+[wheel_status_publisher-32] sequence size exceeds remaining buffer
+[parameter_bridge-16] sequence size exceeds remaining buffer
+[parameter_bridge-22] sequence size exceeds remaining buffer
+[parameter_bridge-24] sequence size exceeds remaining buffer
+[parameter_bridge-17] sequence size exceeds remaining buffer
+[kidnap_estimator_publisher-35] sequence size exceeds remaining buffer
+[parameter_bridge-14] sequence size exceeds remaining buffer
+[parameter_bridge-9] sequence size exceeds remaining buffer
+[mock_publisher-33] sequence size exceeds remaining buffer
+[parameter_bridge-24] sequence size exceeds remaining buffer
+[parameter_bridge-12] sequence size exceeds remaining buffer
+[motion_control-31] sequence size exceeds remaining buffer
+[joint_state_publisher-4] sequence size exceeds remaining buffer
+[motion_control-31] sequence size exceeds remaining buffer
+[joint_state_publisher-4] sequence size exceeds remaining buffer
+[parameter_bridge-17] sequence size exceeds remaining buffer
+[parameter_bridge-15] sequence size exceeds remaining buffer
+[hazards_vector_publisher-29] sequence size exceeds remaining buffer
+[ui_mgr-36] sequence size exceeds remaining buffer
+[parameter_bridge-23] sequence size exceeds remaining buffer
+[hazards_vector_publisher-29] sequence size exceeds remaining buffer
+[ir_intensity_vector_publisher-30] sequence size exceeds remaining buffer
+[turtlebot4_node-27] sequence size exceeds remaining buffer
+[parameter_bridge-14] sequence size exceeds remaining buffer
+[parameter_bridge-14] sequence size exceeds remaining buffer
+[parameter_bridge-25] sequence size exceeds remaining buffer
+[joint_state_publisher-4] sequence size exceeds remaining buffer
+[parameter_bridge-15] sequence size exceeds remaining buffer
+[parameter_bridge-15] sequence size exceeds remaining buffer
+[ui_mgr-36] sequence size exceeds remaining buffer
+[robot_state_publisher-3] sequence size exceeds remaining buffer
+[robot_state_publisher-5] sequence size exceeds remaining buffer
+[robot_state_publisher-5] sequence size exceeds remaining buffer
+[parameter_bridge-11] sequence size exceeds remaining buffer
+[interface_buttons_node-39] sequence size exceeds remaining buffer
+[parameter_bridge-26] sequence size exceeds remaining buffer
+[wheel_status_publisher-32] sequence size exceeds remaining buffer
+[parameter_bridge-24] sequence size exceeds remaining buffer
+[parameter_bridge-21] sequence size exceeds remaining buffer
+[parameter_bridge-21] sequence size exceeds remaining buffer
+[kidnap_estimator_publisher-35] sequence size exceeds remaining buffer
+[kidnap_estimator_publisher-35] sequence size exceeds remaining buffer
+[static_transform_publisher-6] sequence size exceeds remaining buffer
+[static_transform_publisher-6] sequence size exceeds remaining buffer
+[create-7] sequence size exceeds remaining buffer
+[create-7] sequence size exceeds remaining buffer
+[static_transform_publisher-40] sequence size exceeds remaining buffer
+[static_transform_publisher-40] sequence size exceeds remaining buffer
+[parameter_bridge-12] sequence size exceeds remaining buffer
+[parameter_bridge-12] sequence size exceeds remaining buffer
+[sync_slam_toolbox_node-42] sequence size exceeds remaining buffer
+[static_transform_publisher-41] sequence size exceeds remaining buffer
+[sensors_node-38] sequence size exceeds remaining buffer
+[parameter_bridge-17] sequence size exceeds remaining buffer
+[parameter_bridge-17] sequence size exceeds remaining buffer
+[parameter_bridge-22] sequence size exceeds remaining buffer
+[parameter_bridge-22] sequence size exceeds remaining buffer
+[parameter_bridge-10] sequence size exceeds remaining buffer
+[robot_state-34] sequence size exceeds remaining buffer
+[robot_state-34] sequence size exceeds remaining buffer
+[create-8] [INFO] [1791334109.032695310] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334109.127826842] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334110.442359404] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334110.443415061] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[wheel_status_publisher-32] sequence size exceeds remaining buffer
+[parameter_bridge-17] sequence size exceeds remaining buffer
+[parameter_bridge-21] sequence size exceeds remaining buffer
+[parameter_bridge-18] sequence size exceeds remaining buffer
+[robot_state-34] sequence size exceeds remaining buffer
+[static_transform_publisher-40] sequence size exceeds remaining buffer
+[parameter_bridge-20] sequence size exceeds remaining buffer
+[parameter_bridge-19] sequence size exceeds remaining buffer
+[create-8] sequence size exceeds remaining buffer
+[parameter_bridge-15] sequence size exceeds remaining buffer
+[motion_control-31] sequence size exceeds remaining buffer
+[sensors_node-38] sequence size exceeds remaining buffer
+[parameter_bridge-11] sequence size exceeds remaining buffer
+[spawner-28] sequence size exceeds remaining buffer
+[parameter_bridge-10] sequence size exceeds remaining buffer
+[parameter_bridge-26] sequence size exceeds remaining buffer
+[robot_state-34] sequence size exceeds remaining buffer
+[static_transform_publisher-6] sequence size exceeds remaining buffer
+[create-8] sequence size exceeds remaining buffer
+[motion_control-31] sequence size exceeds remaining buffer
+[parameter_bridge-23] sequence size exceeds remaining buffer
+[parameter_bridge-21] sequence size exceeds remaining buffer
+[parameter_bridge-22] sequence size exceeds remaining buffer
+[parameter_bridge-25] sequence size exceeds remaining buffer
+[robot_state_publisher-5] sequence size exceeds remaining buffer
+[static_transform_publisher-41] sequence size exceeds remaining buffer
+[wheel_status_publisher-32] sequence size exceeds remaining buffer
+[create-7] sequence size exceeds remaining buffer
+[turtlebot4_node-27] sequence size exceeds remaining buffer
+[parameter_bridge-13] sequence size exceeds remaining buffer
+[parameter_bridge-20] sequence size exceeds remaining buffer
+[interface_buttons_node-39] sequence size exceeds remaining buffer
+[static_transform_publisher-40] sequence size exceeds remaining buffer
+[kidnap_estimator_publisher-35] sequence size exceeds remaining buffer
+[parameter_bridge-2] sequence size exceeds remaining buffer
+[parameter_bridge-16] sequence size exceeds remaining buffer
+[parameter_bridge-19] sequence size exceeds remaining buffer
+[parameter_bridge-16] sequence size exceeds remaining buffer
+[parameter_bridge-19] sequence size exceeds remaining buffer
+[parameter_bridge-19] sequence size exceeds remaining buffer
+[parameter_bridge-18] sequence size exceeds remaining buffer
+[parameter_bridge-20] sequence size exceeds remaining buffer
+[parameter_bridge-2] sequence size exceeds remaining buffer
+[create-7] sequence size exceeds remaining buffer
+[turtlebot4_node-27] sequence size exceeds remaining buffer
+[parameter_bridge-20] sequence size exceeds remaining buffer
+[create-8] [INFO] [1791334114.033069492] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334114.128099300] [ros_gz_sim]: Requesting list of world names.
+[create-8] sequence size exceeds remaining buffer
+[spawner-28] sequence size exceeds remaining buffer
+[parameter_bridge-18] sequence size exceeds remaining buffer
+[parameter_bridge-16] sequence size exceeds remaining buffer
+[parameter_bridge-21] sequence size exceeds remaining buffer
+[parameter_bridge-18] sequence size exceeds remaining buffer
+[robot_state_publisher-3] sequence size exceeds remaining buffer
+[robot_state_publisher-3] sequence size exceeds remaining buffer
+[robot_state_publisher-3] sequence size exceeds remaining buffer
+[kidnap_estimator_publisher-35] sequence size exceeds remaining buffer
+[parameter_bridge-20] sequence size exceeds remaining buffer
+[parameter_bridge-12] sequence size exceeds remaining buffer
+[static_transform_publisher-40] sequence size exceeds remaining buffer
+[create-8] sequence size exceeds remaining buffer
+[parameter_bridge-2] sequence size exceeds remaining buffer
+[ui_mgr-36] sequence size exceeds remaining buffer
+[create-8] sequence size exceeds remaining buffer
+[robot_state_publisher-3] sequence size exceeds remaining buffer
+[parameter_bridge-2] sequence size exceeds remaining buffer
+[parameter_bridge-19] sequence size exceeds remaining buffer
+[create-8] [INFO] [1791334119.033452883] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334119.128521718] [ros_gz_sim]: Requesting list of world names.
+[sync_slam_toolbox_node-42] sequence size exceeds remaining buffer
+[robot_state_publisher-5] sequence size exceeds remaining buffer
+[static_transform_publisher-6] sequence size exceeds remaining buffer
+[turtlebot4_node-27] sequence size exceeds remaining buffer
+[turtlebot4_node-27] sequence size exceeds remaining buffer
+[motion_control-31] sequence size exceeds remaining buffer
+[parameter_bridge-22] sequence size exceeds remaining buffer
+[static_transform_publisher-6] sequence size exceeds remaining buffer
+[parameter_bridge-2] sequence size exceeds remaining buffer
+[interface_buttons_node-39] sequence size exceeds remaining buffer
+[robot_state_publisher-5] sequence size exceeds remaining buffer
+[parameter_bridge-16] sequence size exceeds remaining buffer
+[parameter_bridge-15] sequence size exceeds remaining buffer
+[create-7] sequence size exceeds remaining buffer
+[spawner-28] [WARN] [1791334120.461097647] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334120.461973870] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-8] [INFO] [1791334124.034038835] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334124.128822235] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791334129.034370682] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334129.129130818] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334130.479572832] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334130.480460968] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-8] [INFO] [1791334134.035325320] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334134.129457163] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791334139.035665056] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334139.129756948] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334140.498705454] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334140.499391101] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-8] [INFO] [1791334144.036114800] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334144.130043938] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791334149.036565860] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334149.130406481] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334150.516218645] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334150.516905485] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-8] [INFO] [1791334154.036851867] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334154.130893795] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791334159.037198556] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334159.131200224] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334160.533489720] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334160.534334698] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[create-8] [INFO] [1791334164.037548572] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334164.131543502] [ros_gz_sim]: Requesting list of world names.
+[create-8] [INFO] [1791334169.037868580] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334169.132044673] [ros_gz_sim]: Requesting list of world names.
+[spawner-28] [WARN] [1791334170.550982751] [spawner_joint_state_broadcaster]: Could not contact service /controller_manager/list_controllers
+[spawner-28] [INFO] [1791334170.551943447] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [sync_slam_toolbox_node-42]: sending signal 'SIGINT' to process[sync_slam_toolbox_node-42]
+[INFO] [static_transform_publisher-41]: sending signal 'SIGINT' to process[static_transform_publisher-41]
+[INFO] [static_transform_publisher-40]: sending signal 'SIGINT' to process[static_transform_publisher-40]
+[INFO] [interface_buttons_node-39]: sending signal 'SIGINT' to process[interface_buttons_node-39]
+[INFO] [sensors_node-38]: sending signal 'SIGINT' to process[sensors_node-38]
+[INFO] [pose_republisher_node-37]: sending signal 'SIGINT' to process[pose_republisher_node-37]
+[INFO] [ui_mgr-36]: sending signal 'SIGINT' to process[ui_mgr-36]
+[INFO] [kidnap_estimator_publisher-35]: sending signal 'SIGINT' to process[kidnap_estimator_publisher-35]
+[INFO] [robot_state-34]: sending signal 'SIGINT' to process[robot_state-34]
+[INFO] [mock_publisher-33]: sending signal 'SIGINT' to process[mock_publisher-33]
+[INFO] [wheel_status_publisher-32]: sending signal 'SIGINT' to process[wheel_status_publisher-32]
+[INFO] [motion_control-31]: sending signal 'SIGINT' to process[motion_control-31]
+[INFO] [ir_intensity_vector_publisher-30]: sending signal 'SIGINT' to process[ir_intensity_vector_publisher-30]
+[INFO] [hazards_vector_publisher-29]: sending signal 'SIGINT' to process[hazards_vector_publisher-29]
+[INFO] [static_transform_publisher-41]: process has finished cleanly [pid 14890]
+[INFO] [spawner-28]: sending signal 'SIGINT' to process[spawner-28]
+[INFO] [sync_slam_toolbox_node-42]: process has finished cleanly [pid 14904]
+[INFO] [turtlebot4_node-27]: sending signal 'SIGINT' to process[turtlebot4_node-27]
+[INFO] [static_transform_publisher-40]: process has finished cleanly [pid 14865]
+[INFO] [parameter_bridge-26]: sending signal 'SIGINT' to process[parameter_bridge-26]
+[INFO] [parameter_bridge-25]: sending signal 'SIGINT' to process[parameter_bridge-25]
+[INFO] [parameter_bridge-24]: sending signal 'SIGINT' to process[parameter_bridge-24]
+[INFO] [parameter_bridge-23]: sending signal 'SIGINT' to process[parameter_bridge-23]
+[INFO] [parameter_bridge-22]: sending signal 'SIGINT' to process[parameter_bridge-22]
+[INFO] [parameter_bridge-21]: sending signal 'SIGINT' to process[parameter_bridge-21]
+[INFO] [interface_buttons_node-39]: process has finished cleanly [pid 14857]
+[INFO] [parameter_bridge-20]: sending signal 'SIGINT' to process[parameter_bridge-20]
+[INFO] [parameter_bridge-19]: sending signal 'SIGINT' to process[parameter_bridge-19]
+[INFO] [parameter_bridge-18]: sending signal 'SIGINT' to process[parameter_bridge-18]
+[INFO] [parameter_bridge-17]: sending signal 'SIGINT' to process[parameter_bridge-17]
+[INFO] [parameter_bridge-16]: sending signal 'SIGINT' to process[parameter_bridge-16]
+[INFO] [parameter_bridge-15]: sending signal 'SIGINT' to process[parameter_bridge-15]
+[INFO] [parameter_bridge-14]: sending signal 'SIGINT' to process[parameter_bridge-14]
+[INFO] [parameter_bridge-13]: sending signal 'SIGINT' to process[parameter_bridge-13]
+[INFO] [parameter_bridge-12]: sending signal 'SIGINT' to process[parameter_bridge-12]
+[INFO] [parameter_bridge-11]: sending signal 'SIGINT' to process[parameter_bridge-11]
+[INFO] [parameter_bridge-10]: sending signal 'SIGINT' to process[parameter_bridge-10]
+[INFO] [parameter_bridge-9]: sending signal 'SIGINT' to process[parameter_bridge-9]
+[INFO] [create-8]: sending signal 'SIGINT' to process[create-8]
+[INFO] [create-7]: sending signal 'SIGINT' to process[create-7]
+[INFO] [static_transform_publisher-6]: sending signal 'SIGINT' to process[static_transform_publisher-6]
+[INFO] [parameter_bridge-20]: process has finished cleanly [pid 14662]
+[INFO] [parameter_bridge-18]: process has finished cleanly [pid 14658]
+[INFO] [parameter_bridge-23]: process has finished cleanly [pid 14685]
+[INFO] [parameter_bridge-26]: process has finished cleanly [pid 14715]
+[INFO] [kidnap_estimator_publisher-35]: process has finished cleanly [pid 14793]
+[INFO] [parameter_bridge-22]: process has finished cleanly [pid 14680]
+[INFO] [parameter_bridge-25]: process has finished cleanly [pid 14712]
+[INFO] [parameter_bridge-19]: process has finished cleanly [pid 14660]
+[INFO] [parameter_bridge-21]: process has finished cleanly [pid 14671]
+[INFO] [robot_state_publisher-5]: sending signal 'SIGINT' to process[robot_state_publisher-5]
+[INFO] [parameter_bridge-24]: process has finished cleanly [pid 14702]
+[INFO] [joint_state_publisher-4]: sending signal 'SIGINT' to process[joint_state_publisher-4]
+[INFO] [parameter_bridge-17]: process has finished cleanly [pid 14655]
+[INFO] [parameter_bridge-16]: process has finished cleanly [pid 14653]
+[INFO] [parameter_bridge-15]: process has finished cleanly [pid 14651]
+[INFO] [robot_state_publisher-3]: sending signal 'SIGINT' to process[robot_state_publisher-3]
+[INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+[INFO] [mock_publisher-33]: process has finished cleanly [pid 14762]
+[INFO] [pose_republisher_node-37]: process has finished cleanly [pid 14813]
+[INFO] [ign gazebo-1]: sending signal 'SIGINT' to process[ign gazebo-1]
+[INFO] [robot_state-34]: process has finished cleanly [pid 14781]
+[INFO] [parameter_bridge-13]: process has finished cleanly [pid 14647]
+[INFO] [parameter_bridge-14]: process has finished cleanly [pid 14649]
+[sync_slam_toolbox_node-42] [INFO] [1791334171.635865006] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [wheel_status_publisher-32]: process has finished cleanly [pid 14744]
+[INFO] [parameter_bridge-12]: process has finished cleanly [pid 14645]
+[INFO] [parameter_bridge-11]: process has finished cleanly [pid 14643]
+[static_transform_publisher-41] [INFO] [1791334171.646381268] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-40] [INFO] [1791334171.658607113] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[interface_buttons_node-39] [INFO] [1791334171.675075475] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[sensors_node-38] [INFO] [1791334171.686127344] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[pose_republisher_node-37] [INFO] [1791334171.702783819] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ui_mgr-36] [INFO] [1791334171.714894408] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[kidnap_estimator_publisher-35] [INFO] [1791334171.728860265] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state-34] [INFO] [1791334171.742434426] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[mock_publisher-33] [INFO] [1791334171.758460346] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[wheel_status_publisher-32] [INFO] [1791334171.777192955] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[motion_control-31] [INFO] [1791334171.794802863] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ir_intensity_vector_publisher-30] [INFO] [1791334171.807421868] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[hazards_vector_publisher-29] [INFO] [1791334171.820367577] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[turtlebot4_node-27] [INFO] [1791334171.841318366] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-26] [INFO] [1791334171.852268995] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-25] [INFO] [1791334171.862851781] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [parameter_bridge-10]: process has finished cleanly [pid 14638]
+[parameter_bridge-24] [INFO] [1791334171.873220495] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-23] [INFO] [1791334171.883219134] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-22] [INFO] [1791334171.894058703] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-21] [INFO] [1791334171.906941293] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-20] [INFO] [1791334171.918529340] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-19] [INFO] [1791334171.928328613] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-18] [INFO] [1791334171.938237062] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-17] [INFO] [1791334171.949934885] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-16] [INFO] [1791334171.968339918] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-15] [INFO] [1791334171.979215505] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-14] [INFO] [1791334172.001654843] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-13] [INFO] [1791334172.014425033] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-12] [INFO] [1791334172.036110686] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-11] [INFO] [1791334172.044543492] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-11] Failed to delete datawriter, at ./src/publisher.cpp:48 during '__function__'
+[parameter_bridge-10] [INFO] [1791334172.058322228] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-9] [INFO] [1791334172.071495105] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [ui_mgr-36]: process has finished cleanly [pid 14795]
+[static_transform_publisher-6] [INFO] [1791334172.110261343] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-5] [INFO] [1791334172.124217112] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-3] [INFO] [1791334172.148194624] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-2] [INFO] [1791334172.161924138] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [parameter_bridge-9]: process has finished cleanly [pid 14635]
+[INFO] [ir_intensity_vector_publisher-30]: process has finished cleanly [pid 14725]
+[INFO] [hazards_vector_publisher-29]: process has finished cleanly [pid 14723]
+[INFO] [spawner-28]: process has finished cleanly [pid 14721]
+[INFO] [static_transform_publisher-6]: process has finished cleanly [pid 14629]
+[INFO] [parameter_bridge-2]: process has finished cleanly [pid 14620]
+[INFO] [robot_state_publisher-5]: process has finished cleanly [pid 14627]
+[INFO] [sensors_node-38]: process has finished cleanly [pid 14821]
+[INFO] [robot_state_publisher-3]: process has finished cleanly [pid 14623]
+[INFO] [joint_state_publisher-4]: process has finished cleanly [pid 14625]
+[INFO] [turtlebot4_node-27]: process has finished cleanly [pid 14718]
+[INFO] [motion_control-31]: process has finished cleanly [pid 14730]
+[create-8] [INFO] [1791334174.038269930] [ros_gz_sim]: Requesting list of world names.
+[create-7] [INFO] [1791334174.132387093] [ros_gz_sim]: Requesting list of world names.
+[ERROR] [create-8]: process[create-8] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [create-7]: process[create-7] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [ign gazebo-1]: process[ign gazebo-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [create-8]: sending signal 'SIGTERM' to process[create-8]
+[INFO] [create-7]: sending signal 'SIGTERM' to process[create-7]
+[INFO] [ign gazebo-1]: sending signal 'SIGTERM' to process[ign gazebo-1]
+[ERROR] [create-8]: process has died [pid 14633, exit code -15, cmd '/opt/ros/humble/lib/ros_ign_gazebo/create -name standard_dock -x 0.157 -y 0.0 -z 0.0 -Y 3.1416 -topic standard_dock_description --ros-args -r __ns:=/'].
+[ERROR] [create-7]: process has died [pid 14631, exit code -15, cmd '/opt/ros/humble/lib/ros_ign_gazebo/create -name turtlebot4 -x 0.0 -y 0.0 -z -0.0025 -Y 0.0 -topic robot_description --ros-args -r __ns:=/'].
+[ERROR] [ign gazebo-1]: process has died [pid 14618, exit code -15, cmd 'ruby /usr/bin/ign gazebo depot.sdf -r -v 4 --gui-config /opt/ros/humble/share/turtlebot4_ignition_bringup/gui/lite/gui.config --force-version 6'].

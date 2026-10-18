@@ -1,0 +1,10 @@
+Downloading model: [36m
+  [96m[1mName: [0m[37mdepot[0m
+  [96m[1mOwner: [0m[37mopenrobotics[0m
+  [96m[1mServer:[0m
+    [96m[1mURL: [0m[37mhttps://fuel.gazebosim.org[0m
+    [96m[1mVersion: [0m[37m1.0[0m
+[39m
+[1;32m[Msg] [0m[1;32mDownloading model [[0m[1;32mhttps://fuel.gazebosim.org/openrobotics/models/depot[0m[1;32m][0m[1;32m[0m
+[1;36m[Dbg] [FuelClient.cc:2002] [0m[1;36mDownloading from a referral link [[0m[1;36mhttps://gz-fuel-resources-production.s3.amazonaws.com/OpenRobotics/ee8fa888-3e74-4477-a7ee-fb55a66741c0/.zips/6.zip?[signed-download-query-omitted][0m[1;36m][0m
+[1;36m[Dbg] [SignalHandler.cc:141] [0m[1;36mReceived signal[[0m[1;36m15[0m[1;36m].[0m
