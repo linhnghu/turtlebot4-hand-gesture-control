@@ -10,10 +10,6 @@ Robot hoạt động trong sân trống 20 × 20 m, có phản hồi odometry v�
 Không cần giữ ngón cái hoặc giữ tay trong webcam sau khi xác nhận.
 Open Palm dừng; Closed Fist hủy và trở về trạng thái chờ.
 
-[Hướng dẫn chi tiết](README_GESTURE_CONTROL.md) ·
-[Báo cáo kiểm chứng](docs/GESTURE_VALIDATION.md) ·
-[Kết quả controller trong Gazebo](docs/gesture_controller_validation.json)
-
 ## Các cử chỉ
 
 | Cử chỉ | Nhãn `/detected_gesture` | Chức năng |
