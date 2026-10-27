@@ -149,7 +149,8 @@ def orphan_lab_launches():
             row = process(path.name)
             args = row['argv'] if row else []
             launches = [(b'turtlebot4_lab', b'lab.launch.py'),
-                        (b'turtlebot4_vision_nav', b'vision_demo.launch.py')]
+                        (b'turtlebot4_vision_nav', b'vision_demo.launch.py'),
+                        (b'turtlebot4_gesture', b'gesture_demo.launch.py')]
             if any(args[i:i + 3] == [b'launch', package, launch_file]
                    for i in range(len(args)) for package, launch_file in launches):
                 rows.append(row)
@@ -202,9 +203,11 @@ def stop():
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2 or sys.argv[1] not in ('start', 'start-vision', 'stop'):
-        raise SystemExit('Usage: turtlebot4_session.py start|start-vision [launch arguments] | stop')
-    package, launch_file = (('turtlebot4_vision_nav', 'vision_demo.launch.py')
-                            if sys.argv[1] == 'start-vision' else ('turtlebot4_lab', 'lab.launch.py'))
+    if len(sys.argv) < 2 or sys.argv[1] not in ('start', 'start-vision', 'start-gesture', 'stop'):
+        raise SystemExit('Usage: turtlebot4_session.py start|start-vision|start-gesture [launch arguments] | stop')
+    package, launch_file = {
+        'start-vision': ('turtlebot4_vision_nav', 'vision_demo.launch.py'),
+        'start-gesture': ('turtlebot4_gesture', 'gesture_demo.launch.py'),
+    }.get(sys.argv[1], ('turtlebot4_lab', 'lab.launch.py'))
     raise SystemExit(stop() if sys.argv[1] == 'stop' else supervise(
         ['ros2', 'launch', package, launch_file, *sys.argv[2:]]))

@@ -11,10 +11,13 @@ artifacts/*.pid
 artifacts/*.lock
 artifacts/*.session.json
 .venv-yolo/
+.venv-gesture/
 .models/
 artifacts/vision_demo/
 artifacts/vision_runs/
 artifacts/latest_vision_run.txt
+artifacts/gesture_runs/
+artifacts/latest_gesture_run.txt
 artifacts/vision_*.log
 artifacts/vision_*.png
 artifacts/vision_setup_topics.json

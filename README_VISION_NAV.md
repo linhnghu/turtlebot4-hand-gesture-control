@@ -1,5 +1,9 @@
 # TurtleBot 4: ba navigation goal và nhận diện YOLO
 
+Nếu đang làm bài **điều khiển bằng cử chỉ tay**, xem
+[README_GESTURE_CONTROL.md](README_GESTURE_CONTROL.md) và dùng
+`./run_gesture_demo.bash`.
+
 Bài này dùng lại `maps/map.yaml` và `maps/map.pgm` đã quét trong world `maze`.
 Không chạy SLAM và không tạo lại bản đồ. Robot định vị bằng AMCL, sau đó node
 Python gửi tuần tự các action Nav2 trong khi node khác xử lý camera bằng YOLO11n.

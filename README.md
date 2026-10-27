@@ -1,153 +1,165 @@
-# TurtleBot 4: Nav2 + YOLO — ROS 2 Humble
+# Điều khiển TurtleBot 4 bằng cử chỉ tay
 
-Bài thực hành TurtleBot 4 Lite trong Gazebo Fortress: kiểm tra sensor,
-điều khiển bằng bàn phím để tạo map với SLAM Toolbox, lưu map, localization
-bằng AMCL và di chuyển tự động bằng Nav2. Sử dụng world `maze` và simulator,
-controller có sẵn của TurtleBot 4.
+**Non-verbal Human–Robot Interaction Using Hand Gesture Recognition**
 
-Repo gồm bài SLAM ban đầu và **[navigation tự động qua 3 goal kết hợp camera YOLO](README_VISION_NAV.md)**.
-Node Python dùng map đã lưu, AMCL và action `/navigate_to_pose` để đi tuần tự;
-node camera dùng `cv_bridge` và YOLO11n để nhận diện người trong Gazebo.
+Nhận diện cử chỉ từ **webcam laptop** bằng OpenCV và MediaPipe Gesture Recognizer,
+điều khiển TurtleBot 4 Lite trong Gazebo Fortress qua ROS 2 Humble.
+Robot hoạt động trong sân trống 20 × 20 m, có phản hồi odometry và bảo vệ LiDAR.
 
-**[Video demo 5 phút 12 giây](docs/demo/demo_rviz_yolo.mp4)** ·
-[Kết quả kiểm chứng](docs/VISION_VALIDATION.md) ·
-[Tọa độ ba goal](src/turtlebot4_vision_nav/config/goals.yaml)
+**Chọn hành vi → Thumbs Up xác nhận một lần → hạ tay → robot tự thực hiện đến hết.**
+Không cần giữ ngón cái hoặc giữ tay trong webcam sau khi xác nhận.
+Open Palm dừng; Closed Fist hủy và trở về trạng thái chờ.
 
-![Nav2 và YOLO đang chạy](docs/vision_demo_preview.png)
+[Hướng dẫn chi tiết](README_GESTURE_CONTROL.md) ·
+[Báo cáo kiểm chứng](docs/GESTURE_VALIDATION.md) ·
+[Kết quả controller trong Gazebo](docs/gesture_controller_validation.json)
+
+## Các cử chỉ
+
+| Cử chỉ | Nhãn `/detected_gesture` | Chức năng |
+|---|---|---|
+| Vẫy tay trái–phải | `Wave` | Chọn hành vi xoay trái–phải để chào |
+| Giơ một ngón trỏ | `Pointing_Up` | Chọn tiến 0,12 m rồi lùi 0,12 m, đủ 4 chu kỳ |
+| Giơ hai ngón chữ V | `Victory` | Chọn một vòng tròn, bán kính danh định 0,4 m |
+| Giơ ngón cái | `Thumb_Up` | Xác nhận và bắt đầu hành vi đã chọn |
+| Xòe bàn tay đứng yên | `Open_Palm` | Dừng ngay |
+| Nắm tay | `Closed_Fist` | Hủy hành vi/lựa chọn, trở về chờ |
+
+Giữ cử chỉ chọn/xác nhận khoảng 0,5–1 giây, đợi trạng thái `SELECTED` rồi
+`RUNNING` trên cửa sổ webcam. Robot đứng yên khi mới chọn; động tác chào
+cũng cần xác nhận. Khi hoàn tất, trạng thái là `COMPLETE`. Muốn chạy tiếp
+phải chọn lại; giữ Thumbs Up không làm hành vi lặp vô hạn.
+
+`Wave` được suy ra từ chuyển động ngang đổi chiều của landmarks bàn tay
+đang được MediaPipe nhận là `Open_Palm`; năm cử chỉ tĩnh dùng classifier
+có sẵn. Xem [cách vẫy tay và xử lý Open Palm](README_GESTURE_CONTROL.md#cử-chỉ-và-trình-tự-thao-tác).
 
 ## Yêu cầu
 
-- Ubuntu 22.04, ROS 2 Humble Desktop.
-- Gazebo Fortress (Ignition Gazebo 6), TurtleBot 4 Simulator.
-- SLAM Toolbox, Nav2 và RViz2.
+- Ubuntu 22.04, ROS 2 Humble Desktop, Gazebo Fortress và TurtleBot 4 Simulator.
+- Python 3.10, `colcon`, webcam laptop hoặc USB hoạt động qua `/dev/video*`.
+- Internet cho lần cài dependencies và tải model đầu tiên.
 
-Cài ROS 2 theo [hướng dẫn Humble](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
-và Gazebo theo [TurtleBot 4 User Manual](https://turtlebot.github.io/turtlebot4-user-manual/software/turtlebot4_simulator.html).
-
-## Clone và build
-
-Trên máy mới, sử dụng `~/ros2_ws` làm workspace:
+Sau khi đã cài ROS 2 Humble, cài các package cần thiết trên máy mới:
 
 ```bash
-git clone https://github.com/linhnghu/turtlebot4-nav2-yolo.git ~/ros2_ws
-cd ~/ros2_ws
+sudo apt update
 sudo apt install ros-humble-turtlebot4-simulator ros-humble-irobot-create-nodes \
-  ros-humble-slam-toolbox ros-humble-navigation2 ros-humble-nav2-bringup \
-  ros-humble-teleop-twist-keyboard
-source /opt/ros/humble/setup.bash
-colcon build --symlink-install --packages-select turtlebot4_lab
+  python3-colcon-common-extensions python3-venv ffmpeg x11-utils
 ```
 
-## Chạy Nav2 và YOLO
+Dependency Python được cài riêng trong `.venv-gesture/`: MediaPipe `0.10.21`,
+OpenCV contrib `4.11.0.86`, NumPy `1.26.4`. Model chính thức được tải vào
+`.models/gesture_recognizer.task`. Không cần cài CUDA.
 
-Sau khi build bài cơ bản, cài dependency và chạy demo:
+## Cài và chạy
+
+Trên máy mới, clone vào workspace chưa tồn tại:
 
 ```bash
-sudo apt install ros-humble-turtlebot4-navigation ros-humble-nav2-simple-commander \
-  ros-humble-cv-bridge python3-venv ffmpeg x11-utils
-./setup_vision.bash
-./run_vision_demo.bash
+git clone https://github.com/linhnghu/turtlebot4-hand-gesture-control.git ~/ros2_ws
+cd ~/ros2_ws
+./setup_gesture.bash
 ```
 
-Launch mở Gazebo `maze`, bản đồ đã lưu, AMCL, Nav2, RViz và cửa sổ nhận diện.
-Đợi khoảng một phút; robot tự undock và chạy qua ba goal. Không dùng teleop
-hoặc đặt goal bằng chuột trong nhiệm vụ. Xem [hướng dẫn bài YOLO](README_VISION_NAV.md)
-để đổi tọa độ, khảo sát và quay video. Dừng bằng `./stop_turtlebot4.bash`.
+Nếu đã có project trong `~/ros2_ws`, chỉ cần chạy `./setup_gesture.bash`
+một lần; không clone chồng lên thư mục hiện tại.
 
-## Chạy bài thực hành
+Chạy demo:
 
-Mỗi thời điểm chạy một chế độ. Giữ terminal launch chạy khi sử dụng RViz và
-các terminal phụ. Để chuyển chế độ, chạy `./stop_turtlebot4.bash` rồi khởi động lại.
+```bash
+cd ~/ros2_ws
+./stop_turtlebot4.bash
+./run_gesture_demo.bash
+```
 
-| Chế độ | Lệnh trong workspace |
+Giữ terminal launch chạy. Gazebo, TurtleBot 4, bridge, controller và cửa sổ
+**TurtleBot 4 - Hand Gesture Webcam** được mở cùng một lệnh. Đợi controller
+và cảm biến sẵn sàng, đưa một tay rõ nét vào webcam để chọn và xác nhận.
+Không mở teleop/Nav2 trong phiên demo cử chỉ.
+
+Có thể chọn camera khác bằng `./run_gesture_demo.bash camera_index:=2`.
+Đóng ứng dụng khác đang chiếm webcam. Khi kết thúc, chạy:
+
+```bash
+./stop_turtlebot4.bash
+```
+
+## Quay video demo
+
+Trước khi biểu diễn cử chỉ, mở terminal thứ hai:
+
+```bash
+cd ~/ros2_ws
+./record_gesture_demo.py --duration 180
+```
+
+Script dùng ffmpeg ghi **Gazebo và webcam cạnh nhau** trên X11/XWayland.
+Giữ cửa sổ mở, không minimize. Khi demo, không dùng bàn phím điều khiển robot.
+Kịch bản: một ngón → Thumbs Up → hạ tay, đủ 4 chu kỳ; Victory → xác nhận →
+hạ tay, đi hết vòng tròn; Wave → xác nhận, chào lại; sau đó thử Open Palm
+và Closed Fist trong lúc robot đang chạy.
+
+Mỗi lần chạy tạo `artifacts/gesture_runs/<thời điểm>/`; đường dẫn lần gần nhất
+ở `artifacts/latest_gesture_run.txt`. Kết quả gồm:
+
+- `demo_gazebo_gestures.mp4`: video hai cửa sổ khi dùng công cụ quay.
+- `webcam_gestures.mp4`: ảnh webcam kèm landmarks, nhãn/score và trạng thái.
+- `gestures.jsonl`, `behavior.jsonl`: kết quả nhận diện và chuyển trạng thái.
+
+**Repo chưa có video biểu diễn đầy đủ sáu cử chỉ thật.** Cần người biểu diễn
+trước webcam theo [kịch bản nộp bài](README_GESTURE_CONTROL.md#quay-video-nộp-bài).
+Video YOLO ở `docs/demo/` thuộc bài trước.
+
+## Luồng dữ liệu và bảo vệ
+
+`OpenCV webcam → MediaPipe → /detected_gesture → robot_behavior_node → /cmd_vel`
+
+- `/detected_gesture`: `std_msgs/msg/String`; `/cmd_vel`: `geometry_msgs/msg/Twist`.
+- Bộ lọc score ≥ 0,65, cử chỉ chọn/xác nhận ổn định 0,3 giây và sự kiện theo
+  lần đổi cử chỉ giúp hạn chế nhiễu/kích hoạt liên tục. Dừng/hủy không chờ bộ lọc này.
+- Sau xác nhận, frame không có tay vẫn cho phép hành vi tiếp tục. Nếu camera
+  lỗi hoặc mất hẳn luồng bản tin quá 0,8 giây, robot dừng.
+- Kiểm tra odometry/LiDAR mới, khoảng cách vật cản tối thiểu 0,55 m, hazard,
+  giới hạn khu vực 4 m và thời gian hành vi 70 giây. Giữ các bảo vệ Create 3.
+- Tiến–lùi và xoay dùng odometry để xác định hoàn tất, có xử lý góc quấn ±π.
+
+## Kiểm chứng
+
+```bash
+python3 -m unittest discover -s src/turtlebot4_gesture/test -v
+```
+
+Đã qua **18 kiểm thử logic**. Kiểm thử trong Gazebo dùng nhãn ROS tổng hợp:
+chọn → Thumbs Up một lần → chỉ gửi `No_Hand` đến khi hoàn tất cả ba hành vi;
+Open Palm/Closed Fist vẫn dừng/hủy sau khi đã hạ tay. Mất hẳn bản tin camera
+cũng dừng robot. Webcam thật, model và công cụ ghi hai cửa sổ đã được chạy thử.
+Các kết quả này chưa thay thế demo đủ sáu cử chỉ thật.
+Xem [báo cáo](docs/GESTURE_VALIDATION.md) và [JSON](docs/gesture_controller_validation.json).
+
+## Source và các bài trước
+
+| Thành phần | Nội dung |
 |---|---|
-| Simulation và RViz | `./run_turtlebot4.bash mode:=simulation` |
-| SLAM và RViz | `./run_turtlebot4.bash mode:=mapping` |
-| AMCL với map đã lưu | `./run_turtlebot4.bash mode:=localization map:=$HOME/ros2_ws/maps/map.yaml` |
-| AMCL + Nav2 | `./run_turtlebot4.bash mode:=navigation map:=$HOME/ros2_ws/maps/map.yaml` |
+| [`src/turtlebot4_gesture/`](src/turtlebot4_gesture) | Hai ROS node, nhận Wave, máy trạng thái, launch, sân mô phỏng và kiểm thử |
+| [`README_GESTURE_CONTROL.md`](README_GESTURE_CONTROL.md) | Cấu hình, thao tác, bảo vệ và xử lý lỗi chi tiết |
+| [`src/turtlebot4_lab/`](src/turtlebot4_lab) | Simulation, SLAM, AMCL/Nav2 của bài trước |
+| [`src/turtlebot4_vision_nav/`](src/turtlebot4_vision_nav) | Navigation qua ba goal và camera YOLO |
+| [`README_TURTLEBOT4.md`](README_TURTLEBOT4.md) | Hướng dẫn SLAM và navigation |
+| [`README_VISION_NAV.md`](README_VISION_NAV.md) | Hướng dẫn bài Nav2 + YOLO, video và kết quả riêng |
+| [`maps/`](maps) | Map `maze` đã lưu |
 
-Khi mapping, mở terminal thứ hai:
+Source các package được đưa trực tiếp vào repo. Không đưa `build/`, `install/`,
+`log/`, virtualenv, weights hay video webcam tự sinh vào Git. Simulator, robot
+description và controller upstream được cài qua package ROS chính thức.
 
-```bash
-cd ~/ros2_ws
-./run_teleop.bash
-```
+## Tài liệu và license
 
-Script tự nạp môi trường ROS và undock robot nếu cần. Đợi `Teleop ready`,
-focus terminal và giữ `i` để đi, `j/l` để quay, `k` để dừng. Lưu map khi
-SLAM vẫn đang chạy:
+- [MediaPipe Gesture Recognizer](https://developers.google.com/edge/mediapipe/solutions/vision/gesture_recognizer/python)
+- [OpenCV VideoCapture](https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html)
+- [TurtleBot 4 Simulation](https://turtlebot.github.io/turtlebot4-user-manual/software/simulation.html)
 
-```bash
-./save_map.bash
-```
-
-Kết quả nằm tại `maps/map.yaml` và `maps/map.pgm`.
-
-Localization/Nav2 mặc định khởi tạo pose `(0, 0, yaw=0)` trên map, tương ứng
-vị trí spawn mặc định của bài. Có thể đặt lại pose bằng **2D Pose Estimate**
-trên RViz, truyền `initial_x`, `initial_y`, `initial_yaw`, hoặc chọn
-`auto_initial_pose:=false` để thực hành tự khởi tạo.
-
-Khi Navigation và Localization trên RViz đều `active`, undock từ terminal phụ:
-
-```bash
-cd ~/ros2_ws
-source turtlebot4_env.bash
-ros2 action send_goal /undock irobot_create_msgs/action/Undock '{}'
-```
-
-Dùng **Nav2 Goal** trong RViz hoặc gửi một tọa độ theo frame `map`, ví dụ:
-
-```bash
-ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose \
-"{pose: {header: {frame_id: map}, pose: {position: {x: -2.0, y: 0.0, z: 0.0}, orientation: {w: 1.0}}}}" \
---feedback
-```
-
-Chọn goal trong vùng trống đã khảo sát và đóng teleop trước khi gửi goal.
-
-## Kiểm tra và cấu hình
-
-```bash
-cd ~/ros2_ws
-source turtlebot4_env.bash
-ros2 run turtlebot4_lab check_topics.py --require-map
-ros2 run tf2_ros tf2_echo map base_link --ros-args -p use_sim_time:=true
-```
-
-`turtlebot4_env.bash` dùng ROS domain `49`, Fast DDS qua UDP loopback và nạp
-workspace. Có thể chọn domain khác bằng `TURTLEBOT4_LAB_DOMAIN_ID`.
-Overlay `.turtlebot4_compat/` được tạo từ các package đã cài để chọn Ogre 2
-cho LiDAR và camera Gazebo nhìn từ trên cao; không sửa `/opt/ros`.
-
-## Nội dung repo
-
-- `src/turtlebot4_lab/`: ROS package, launch bốn chế độ, RViz và công cụ kiểm tra.
-- `src/turtlebot4_vision_nav/`: node điều hướng tuần tự, camera YOLO, ghi tọa độ,
-  launch và model người 3D.
-- Các script ở root: môi trường, quản lý phiên, teleop và lưu map.
-- `maps/`: bản đồ `maze` được lưu từ SLAM.
-- [README_TURTLEBOT4.md](README_TURTLEBOT4.md): hướng dẫn chi tiết bốn phần.
-- [artifacts/VALIDATION.md](artifacts/VALIDATION.md): kết quả kiểm thử, log và ảnh.
-- [docs/VISION_VALIDATION.md](docs/VISION_VALIDATION.md): kết quả ba goal và YOLO;
-  `docs/demo/` chứa video và hai báo cáo JSON từ lần chạy đã kiểm chứng.
-
-Simulator, mô tả robot và controller được cài qua các package ROS chính thức.
-`build/`, `install/`, `log/`, cấu hình IDE và overlay tự sinh được bỏ qua khi commit.
-
-## Kiểm thử đã thực hiện
-
-Đã kiểm tra các topic, teleop, lưu/load map, AMCL và Nav2 trên máy phát triển.
-Ba goal Nav2 trong lần thử ngày 07/10/2026 đều SUCCEEDED. Ngày 13/10/2026,
-đã kiểm tra teleop di chuyển 0.349 m và khởi tạo AMCL tự động; goal `(-2, 0)`
-SUCCEEDED trên bản map người dùng lưu lại. Xem báo cáo để biết từng map và
-điều kiện thử; video khảo sát và các goal RViz cho bài nộp cần thực hiện riêng.
-
-![RViz localization và Nav2](artifacts/rviz_navigation_initial_pose_fix_complete.png)
-
-## License
-
-Source của package sử dụng [Apache-2.0](LICENSE). Các dependency TurtleBot 4,
-Create 3, Gazebo và Nav2 giữ license của dự án tương ứng.
-Model Gazebo và Ultralytics có nguồn/license riêng được ghi tại
-[ATTRIBUTION.md](src/turtlebot4_vision_nav/models/ATTRIBUTION.md).
+Source sử dụng [Apache-2.0](LICENSE). Gazebo world kế thừa ground/tường từ
+TurtleBot 4 simulator, có ghi nguồn trong SDF. MediaPipe, model tải về và các
+dependency giữ license tương ứng. Model người 3D và Ultralytics của bài trước
+có nguồn/license riêng tại [ATTRIBUTION.md](src/turtlebot4_vision_nav/models/ATTRIBUTION.md).
