@@ -80,33 +80,6 @@ Có thể chọn camera khác bằng `./run_gesture_demo.bash camera_index:=2`.
 ```bash
 ./stop_turtlebot4.bash
 ```
-
-## Quay video demo
-
-Trước khi biểu diễn cử chỉ, mở terminal thứ hai:
-
-```bash
-cd ~/ros2_ws
-./record_gesture_demo.py --duration 180
-```
-
-Script dùng ffmpeg ghi **Gazebo và webcam cạnh nhau** trên X11/XWayland.
-Giữ cửa sổ mở, không minimize. Khi demo, không dùng bàn phím điều khiển robot.
-Kịch bản: một ngón → Thumbs Up → hạ tay, đủ 4 chu kỳ; Victory → xác nhận →
-hạ tay, đi hết vòng tròn; Wave → xác nhận, chào lại; sau đó thử Open Palm
-và Closed Fist trong lúc robot đang chạy.
-
-Mỗi lần chạy tạo `artifacts/gesture_runs/<thời điểm>/`; đường dẫn lần gần nhất
-ở `artifacts/latest_gesture_run.txt`. Kết quả gồm:
-
-- `demo_gazebo_gestures.mp4`: video hai cửa sổ khi dùng công cụ quay.
-- `webcam_gestures.mp4`: ảnh webcam kèm landmarks, nhãn/score và trạng thái.
-- `gestures.jsonl`, `behavior.jsonl`: kết quả nhận diện và chuyển trạng thái.
-
-**Repo chưa có video biểu diễn đầy đủ sáu cử chỉ thật.** Cần người biểu diễn
-trước webcam theo [kịch bản nộp bài](README_GESTURE_CONTROL.md#quay-video-nộp-bài).
-Video YOLO ở `docs/demo/` thuộc bài trước.
-
 ## Luồng dữ liệu và bảo vệ
 
 `OpenCV webcam → MediaPipe → /detected_gesture → robot_behavior_node → /cmd_vel`
